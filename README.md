@@ -6,3 +6,6 @@ Tech: SDL, OpenGL, spdlog, glm, ImGui, Premake
 
 
 ![A_Star_demo_Halp7kv4Ey](https://github.com/user-attachments/assets/958c58be-c2a2-4149-9d24-2f2598a24213)
+
+
+![A_Star_demo_qbrJXP7fcW](https://github.com/user-attachments/assets/405604b4-85e4-450c-abda-a47373242cd3)
