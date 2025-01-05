@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="pch">
+      <UniqueIdentifier>{809C880B-ECA5-887C-7521-9F7CE129947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{0F45D591-7B24-542D-843C-DF03F09ABA8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Camera">
+      <UniqueIdentifier>{054BA008-F102-E255-5A0A-BBB146E17C46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Collision">
+      <UniqueIdentifier>{887C1F9C-F43C-9BD2-BD77-E44F29F7DFAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core">
+      <UniqueIdentifier>{A5D31CCF-91A0-77DA-BAB9-6582A6E5AC68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GUI">
+      <UniqueIdentifier>{C1782FA9-2D58-AE44-3670-391BA2CE14A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\IndexBuffer">
+      <UniqueIdentifier>{4EFD9235-BA88-00FA-C399-83EE2FA45CFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Input">
+      <UniqueIdentifier>{EC4823B3-58B3-D729-A1F1-88CF0D9BB57E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Shader">
+      <UniqueIdentifier>{33E66A2E-1F9E-AC7B-88A5-85D7747C476C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Star">
+      <UniqueIdentifier>{D6AC25CF-C279-80DA-EB92-6E82D7BEB568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Star\Tiles">
+      <UniqueIdentifier>{E661B3C4-D22F-A7CA-BBC3-17F1A730832F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Timer">
+      <UniqueIdentifier>{BD89E7B3-29F4-9B2A-7232-4DD0DEDB797F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Utilities">
+      <UniqueIdentifier>{D86B3A83-442C-B6B9-0D67-FF3679E6FA95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\VertexArray">
+      <UniqueIdentifier>{399B50D1-A526-BE95-AE37-418A1A421A96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\VertexBuffer">
+      <UniqueIdentifier>{14F3E8FD-00EC-0750-291E-EDD41576E75B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch\pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera\Camera.h">
+      <Filter>src\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Collision\Collision.h">
+      <Filter>src\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Core.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GUI\ImGuiWrapper.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IndexBuffer\IndexBuffer.h">
+      <Filter>src\IndexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input\Input.h">
+      <Filter>src\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader\Shader.h">
+      <Filter>src\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Star\Map.h">
+      <Filter>src\Star</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Star\Player.h">
+      <Filter>src\Star</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Star\TileCostResolver.h">
+      <Filter>src\Star</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Star\Tiles\BaseTile.h">
+      <Filter>src\Star\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Star\Tiles\BlockingTile.h">
+      <Filter>src\Star\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Star\Tiles\DangerousTile.h">
+      <Filter>src\Star\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Star\Tiles\WalkableTile.h">
+      <Filter>src\Star\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Timer\Timer.h">
+      <Filter>src\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\ColorUtility.h">
+      <Filter>src\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\Defines.h">
+      <Filter>src\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\FileUtility.h">
+      <Filter>src\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\Logs.h">
+      <Filter>src\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VertexArray\VertexArray.h">
+      <Filter>src\VertexArray</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VertexBuffer\BufferLayout.h">
+      <Filter>src\VertexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VertexBuffer\VertexBuffer.h">
+      <Filter>src\VertexBuffer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch\pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera\Camera.cpp">
+      <Filter>src\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Collision\Collision.cpp">
+      <Filter>src\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Core.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\ImGuiWrapper.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IndexBuffer\IndexBuffer.cpp">
+      <Filter>src\IndexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input\Input.cpp">
+      <Filter>src\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader\Shader.cpp">
+      <Filter>src\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Star\Map.cpp">
+      <Filter>src\Star</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Star\Player.cpp">
+      <Filter>src\Star</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Star\TileCostResolver.cpp">
+      <Filter>src\Star</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Star\Tiles\BaseTile.cpp">
+      <Filter>src\Star\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Star\Tiles\BlockingTile.cpp">
+      <Filter>src\Star\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Star\Tiles\DangerousTile.cpp">
+      <Filter>src\Star\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Star\Tiles\WalkableTile.cpp">
+      <Filter>src\Star\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Timer\Timer.cpp">
+      <Filter>src\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\ColorUtility.cpp">
+      <Filter>src\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\FileUtility.cpp">
+      <Filter>src\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\Logs.cpp">
+      <Filter>src\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VertexArray\VertexArray.cpp">
+      <Filter>src\VertexArray</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VertexBuffer\BufferLayout.cpp">
+      <Filter>src\VertexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VertexBuffer\VertexBuffer.cpp">
+      <Filter>src\VertexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\tile.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\tile.vert">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

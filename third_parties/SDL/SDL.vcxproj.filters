@@ -1,0 +1,3687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\atomic">
+      <UniqueIdentifier>{1919F44F-05D1-359D-6ED8-0EF95AAFD08D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio">
+      <UniqueIdentifier>{0E37D9B4-7AA1-8D2B-C3DF-3ED12F896B80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\aaudio">
+      <UniqueIdentifier>{50B061C2-3CA9-8014-65DB-659951336020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\alsa">
+      <UniqueIdentifier>{DE5A6514-CA28-591A-B3BC-C9409F29357F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\android">
+      <UniqueIdentifier>{5EF0BE2B-CA06-BDC1-137E-48E37FD38D49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\arts">
+      <UniqueIdentifier>{97746514-8342-591A-6CD6-C9405843357F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\coreaudio">
+      <UniqueIdentifier>{98C4DC02-0426-BA10-8D93-00C3F9F3F0CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\directsound">
+      <UniqueIdentifier>{E1CBEF32-4D38-AB2D-162C-438B8257CD95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\disk">
+      <UniqueIdentifier>{48F36614-34C1-5A1A-1D55-CB4009C2367F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\dsp">
+      <UniqueIdentifier>{848CB55D-F04C-3194-B987-7A1125077670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\dummy">
+      <UniqueIdentifier>{09D84BA1-7563-B965-7E74-3C5AEA7E1566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\emscripten">
+      <UniqueIdentifier>{5742B4F6-43D1-3DC0-ECEF-51BBD85D4E66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\esd">
+      <UniqueIdentifier>{B990B55D-2551-3194-EE8B-7A115A0B7670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\fusionsound">
+      <UniqueIdentifier>{BAAD6721-261A-231C-EF0D-BB795B394584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\haiku">
+      <UniqueIdentifier>{2F3189A1-9BBC-F665-A4CD-795A10D85266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\jack">
+      <UniqueIdentifier>{76196A14-62E7-5D1A-4B7B-CE4037E8397F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\n3ds">
+      <UniqueIdentifier>{75876B14-6155-5F1A-4AE9-CF4036563B7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\nacl">
+      <UniqueIdentifier>{FB4A6C14-E718-601A-D0AC-D040BC193C7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\nas">
+      <UniqueIdentifier>{BFB4B55D-2B75-3194-F4AF-7A11602F7670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\netbsd">
+      <UniqueIdentifier>{DD8EFCE0-C987-1B33-F2B9-00B8DE11FB3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\openslES">
+      <UniqueIdentifier>{261B3A2B-12FF-FA80-7B5F-F5D36762E502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\os2">
+      <UniqueIdentifier>{11BBB55D-7D7B-3194-46B6-7A11B2357670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\paudio">
+      <UniqueIdentifier>{BF115FE5-AB0A-7E37-D43C-63BCC0945D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\pipewire">
+      <UniqueIdentifier>{C253AC15-AE37-6D6B-1798-67BE039B57ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\ps2">
+      <UniqueIdentifier>{52BFB55D-BE7F-3194-87BA-7A11F3397670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\psp">
+      <UniqueIdentifier>{90BFB55D-FC7F-3194-C5BA-7A11313A7670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\pulseaudio">
+      <UniqueIdentifier>{D8A60102-C435-8BCB-6D54-9FC659C29B71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\qsa">
+      <UniqueIdentifier>{C2C3B55D-2E84-3194-F7BE-7A11633E7670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\sndio">
+      <UniqueIdentifier>{1A4A57A2-86D5-C466-8FE6-475BFBF02067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\sun">
+      <UniqueIdentifier>{93CCB55D-FF8C-3194-C8C7-7A1134477670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\vita">
+      <UniqueIdentifier>{31D27014-1DA0-641A-0634-D540F2A0407F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\wasapi">
+      <UniqueIdentifier>{8209B2F5-6E02-D147-9734-B6CC838CB053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\winmm">
+      <UniqueIdentifier>{45199DA2-B1A4-0A67-BAB5-8D5B26C06667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{C55F2ECF-B12C-89DA-DA45-7782C671BE68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\android">
+      <UniqueIdentifier>{15E0B081-01D9-CFD3-2A0B-B5581663AFDF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\freebsd">
+      <UniqueIdentifier>{EF73F30B-DB6C-125E-049F-F7E2F0F6F169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\gdk">
+      <UniqueIdentifier>{8A434E7B-76A6-DD1F-1F2C-16D60B6EA9A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\linux">
+      <UniqueIdentifier>{C4A24A88-B070-3E8E-9904-AFB485711AF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\openbsd">
+      <UniqueIdentifier>{DF341ABC-CB2D-390E-F45F-1E93E0B7181A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\os2">
+      <UniqueIdentifier>{48674E7B-34CA-DD1F-DD4F-16D6C991A9A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\os2\geniconv">
+      <UniqueIdentifier>{9028B64E-FC94-7149-C588-09A731B493B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\unix">
+      <UniqueIdentifier>{D88C1EE5-444D-9A1B-0D88-E3987907DFF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\windows">
+      <UniqueIdentifier>{1F973514-0B90-5466-34C2-39EB201A3472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\winrt">
+      <UniqueIdentifier>{E8AF1189-D47D-058F-BD11-76B5A97EE1F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cpuinfo">
+      <UniqueIdentifier>{D08A81DF-3C40-FAD4-C534-F4AB31E9F0D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dynapi">
+      <UniqueIdentifier>{014F4D57-ED06-8FA4-560E-680042E52995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\events">
+      <UniqueIdentifier>{91766759-7D2E-A9A6-E635-8202D20C4497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\file">
+      <UniqueIdentifier>{9CEA2FCF-88B7-8ADA-B1D0-78829DFCBF68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\file\cocoa">
+      <UniqueIdentifier>{F0F0544F-DCBE-4855-C552-B97BB1BF24BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\file\n3ds">
+      <UniqueIdentifier>{C3A326EB-2F64-A221-F89E-EB9E641EE7FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\filesystem">
+      <UniqueIdentifier>{614F84EF-4D1D-78F5-36B1-E81B221E545A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\filesystem\android">
+      <UniqueIdentifier>{B1AB5A50-9DA5-83A2-8612-1AB372ABE90E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\filesystem\dummy">
+      <UniqueIdentifier>{9CA20A5B-8831-9424-3150-A81F1DBEA4CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\filesystem\emscripten">
+      <UniqueIdentifier>{CAA02700-3663-5B8A-7F13-EA16EB143468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\filesystem\n3ds">
+      <UniqueIdentifier>{A8CB616F-142D-3F7D-9D9A-852F09FB753C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\filesystem\nacl">
+      <UniqueIdentifier>{2E8F626F-9AF0-3F7D-235E-862F8FBE763C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\filesystem\os2">
+      <UniqueIdentifier>{E4C40AAE-D0A8-CB03-3909-C656250CB685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\filesystem\ps2">
+      <UniqueIdentifier>{25C90AAE-11AD-CB03-7A0D-C6566610B685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\filesystem\psp">
+      <UniqueIdentifier>{63C90AAE-4FAD-CB03-B80D-C656A410B685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\filesystem\riscos">
+      <UniqueIdentifier>{C32731DC-2F94-ECD6-F887-843464B30E3F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\filesystem\unix">
+      <UniqueIdentifier>{F49D666F-60FF-437D-E96C-8A2F55CD7A3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\filesystem\vita">
+      <UniqueIdentifier>{6416676F-D077-447D-59E5-8A2FC5457B3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\filesystem\windows">
+      <UniqueIdentifier>{BB62DFE2-A75C-0835-90C9-9E457C626EA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\haptic">
+      <UniqueIdentifier>{150EF15E-01C6-32AC-6ACD-0B0856A4CD9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\haptic\android">
+      <UniqueIdentifier>{65DE24AF-51C2-E504-BA22-E057A625D086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\haptic\darwin">
+      <UniqueIdentifier>{099F2C13-75B5-2AA9-BE2C-B6CA2A82FB30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\haptic\dummy">
+      <UniqueIdentifier>{50988084-3C91-9FD6-65C3-845B511B7FE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\haptic\linux">
+      <UniqueIdentifier>{14CD0A85-00C6-29D7-29F8-0E5C155009E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\haptic\windows">
+      <UniqueIdentifier>{6F95A941-5B79-6A97-C4D9-64EAB0DC5419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hidapi">
+      <UniqueIdentifier>{ABED7A5F-97A5-BCAC-00AD-9508EC83579D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hidapi\hidapi">
+      <UniqueIdentifier>{69B675D0-D5CC-7366-1E44-FF878A9944EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hidapi\libusb">
+      <UniqueIdentifier>{9B95C9D9-07AC-C76F-5023-5391BC7898F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hidapi\linux">
+      <UniqueIdentifier>{2A85DF1D-167E-FE6F-3FB0-E3F42B08DE7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hidapi\mac">
+      <UniqueIdentifier>{8B6D5B59-773B-4F5F-60CF-BF854C3C2BC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hidapi\testgui">
+      <UniqueIdentifier>{7F70AC72-6B54-6DC8-D4B4-671BC0B7574A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hidapi\windows">
+      <UniqueIdentifier>{05AB8C62-F18E-4DB8-5AEF-470B46F2373A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\internal_include">
+      <UniqueIdentifier>{BC4AEA86-A8D9-7350-51F8-874B3D6684F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick">
+      <UniqueIdentifier>{AC679202-98CA-21A7-4150-5A5D2D92ED29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\android">
+      <UniqueIdentifier>{FCDE755C-E86D-FF25-918C-13217DFA0FCC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\bsd">
+      <UniqueIdentifier>{94D3B14F-80CC-D0A1-A9FE-B5269556B0AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\darwin">
+      <UniqueIdentifier>{C0688475-2CCA-6183-B537-A83521989842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\dummy">
+      <UniqueIdentifier>{27879A03-136B-5B59-7CCB-55AC68CE45DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\emscripten">
+      <UniqueIdentifier>{35148376-A14B-CB0D-AA55-2F31160CF206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\hidapi">
+      <UniqueIdentifier>{4AC5617F-B626-3F8D-3F94-853FABF4754C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\hidapi\steam">
+      <UniqueIdentifier>{D3E23B0B-3FA5-6F95-8855-FE21F4564873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\iphoneos">
+      <UniqueIdentifier>{809C52F0-EC08-0EEB-B5FC-A54821283053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\linux">
+      <UniqueIdentifier>{EBBB2404-D79F-E559-4000-E0AC2C03D0DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\n3ds">
+      <UniqueIdentifier>{D3CAF145-3FE1-EFDB-8858-7BFDF4ADC063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\os2">
+      <UniqueIdentifier>{AF0AB24F-9B03-D1A1-C435-B626B08DB0AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\ps2">
+      <UniqueIdentifier>{F00EB24F-DC07-D1A1-053A-B626F191B0AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\psp">
+      <UniqueIdentifier>{2E0FB24F-1A08-D1A1-433A-B6262F92B0AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\steam">
+      <UniqueIdentifier>{B546A904-A12A-6A5A-0A8B-64ADF68D54DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\virtual">
+      <UniqueIdentifier>{029851A2-EE26-DB6B-9745-EF6683B3EB11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\vita">
+      <UniqueIdentifier>{8F15F745-FB2B-F5DB-44A3-80FDB0F8C563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\windows">
+      <UniqueIdentifier>{0696FAEE-F224-84B8-9B43-98B387B1945E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libm">
+      <UniqueIdentifier>{A03333CF-8C00-8EDA-B519-7C82A145C368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\loadso">
+      <UniqueIdentifier>{3E8B3A69-2A43-7CB6-934A-55127F2117A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\loadso\dlopen">
+      <UniqueIdentifier>{2FDE978D-9BF4-9523-E46B-214550C166AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\loadso\dummy">
+      <UniqueIdentifier>{399047E5-2589-6637-4EBB-4BBC3A134643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\loadso\os2">
+      <UniqueIdentifier>{41A7054E-2D75-F953-1609-6A7A0276D5B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\loadso\windows">
+      <UniqueIdentifier>{982B0EF0-840F-CF45-ED6F-C998D972B9C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\locale">
+      <UniqueIdentifier>{4C963B69-384E-7DB6-A155-56128D2C18A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\locale\android">
+      <UniqueIdentifier>{9CAD3386-8891-F4DB-F1F1-EE2EDDF4DE5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\locale\dummy">
+      <UniqueIdentifier>{C72D5418-B326-736A-DC58-58EFC8B05276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\locale\emscripten">
+      <UniqueIdentifier>{D5DE6D14-414B-290F-0A3F-C16C766A4B77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\locale\n3ds">
+      <UniqueIdentifier>{731DC100-DFA8-2EC5-E8B9-B1B954C48AC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\locale\unix">
+      <UniqueIdentifier>{BFEFC500-2B7B-33C5-348C-B6B9A0968FC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\locale\vita">
+      <UniqueIdentifier>{2F68C600-9BF3-33C5-A404-B7B9100F90C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\locale\windows">
+      <UniqueIdentifier>{A664B818-9248-796E-FBA8-73C1E7AB63F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\locale\winrt">
+      <UniqueIdentifier>{AF6FA519-9B68-C46B-C49A-A9F0B0F2A377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main">
+      <UniqueIdentifier>{E19E33CF-CD6B-8EDA-F684-7C82E2B0C368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main\android">
+      <UniqueIdentifier>{317B2114-1D74-4066-46A6-25EB32FE1F72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main\dummy">
+      <UniqueIdentifier>{1C92D7B7-0860-CBBD-F1F3-3BE4DD60A722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main\gdk">
+      <UniqueIdentifier>{A6B0D56B-9213-6510-3B99-9DC627DB3093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main\haiku">
+      <UniqueIdentifier>{42EB14B8-2EB9-08BE-174D-79E403BAE422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main\n3ds">
+      <UniqueIdentifier>{28CB8EE6-948B-0A1D-5DC6-539AC9454FF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main\nacl">
+      <UniqueIdentifier>{AE8E8FE6-1A4F-0B1D-E389-549A4F0950F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main\ps2">
+      <UniqueIdentifier>{A5D8D56B-913B-6510-3AC1-9DC626033193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main\psp">
+      <UniqueIdentifier>{E3D8D56B-CF3B-6510-78C1-9DC664033193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main\uikit">
+      <UniqueIdentifier>{169504B9-0263-F8BE-EBF6-68E5D763D423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main\windows">
+      <UniqueIdentifier>{3B32A6A6-272B-C5F8-505D-AA7D3CB5A404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\misc">
+      <UniqueIdentifier>{28C233CF-148F-8EDA-3DA8-7C8229D4C368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\misc\android">
+      <UniqueIdentifier>{78F51766-64EE-36B8-8D20-1C3D797816C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\misc\dummy">
+      <UniqueIdentifier>{A3CE8C47-8F9C-804D-7830-F173649D5CB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\misc\emscripten">
+      <UniqueIdentifier>{316939C1-9DCA-16CF-2638-5D8192984D8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\misc\riscos">
+      <UniqueIdentifier>{AAD4F858-1660-661D-1F71-E9118B7BC21D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\misc\unix">
+      <UniqueIdentifier>{1BE5BF30-87A5-3B67-50E0-84E4BC5F8043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\misc\vita">
+      <UniqueIdentifier>{8B5DC030-F71D-3C67-C058-85E42CD88043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\misc\windows">
+      <UniqueIdentifier>{82AC9CF8-6EA5-BB4A-97D7-A0CF832F9B56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\power">
+      <UniqueIdentifier>{A9ACE5B5-1517-9A2C-5E55-4BD2CAFE7781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\power\android">
+      <UniqueIdentifier>{F9D0C8DF-65E7-C675-AE5E-52971AB497FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\power\emscripten">
+      <UniqueIdentifier>{12214795-FEAF-D05E-A7CE-E459933CE104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\power\haiku">
+      <UniqueIdentifier>{0A2FDC34-76BA-49F9-7FCB-CCEDEBD5A5F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\power\linux">
+      <UniqueIdentifier>{A80A2935-1496-96F9-1DA7-19EE89B1F2F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\power\macosx">
+      <UniqueIdentifier>{63A208DC-4F9B-272E-78CD-0CB36425073A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\power\n3ds">
+      <UniqueIdentifier>{F0B518F2-DC83-0CF8-C517-7D1EB184E85C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\power\psp">
+      <UniqueIdentifier>{AB8AE954-174B-658B-E085-AE084C05AA67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\power\uikit">
+      <UniqueIdentifier>{DED8CB35-4A64-39FA-5375-BCEEBF7F95FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\power\vita">
+      <UniqueIdentifier>{AC001EF2-98CE-11F8-8162-821E6DCFED5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\power\windows">
+      <UniqueIdentifier>{03884D72-6F9E-4B08-B815-D729246B1C90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render">
+      <UniqueIdentifier>{1CA98B76-0861-CDC3-7168-A61F5D3F68B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\direct3d">
+      <UniqueIdentifier>{5D7B5CBE-C9DC-39CC-524A-807EBEAA708B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\direct3d11">
+      <UniqueIdentifier>{1FCD68C7-8B39-24C2-542D-BC1FC058462A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\direct3d12">
+      <UniqueIdentifier>{20CD68C7-8C39-24C2-552D-BC1FC158462A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\metal">
+      <UniqueIdentifier>{3E4FD505-2A48-F457-537A-D9DC3FD2D363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\opengl">
+      <UniqueIdentifier>{3093E8C5-9CA9-E65B-E520-727D5176B7E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\opengles">
+      <UniqueIdentifier>{A82C5AE2-148E-37F0-9DFB-7DA2095C6EAF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\opengles2">
+      <UniqueIdentifier>{DAC19F2D-C650-29F7-6F6F-3DF25BDD399D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\ps2">
+      <UniqueIdentifier>{60884EB8-4C56-42BE-35EA-B2E421571E23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\psp">
+      <UniqueIdentifier>{9E884EB8-8A56-42BE-73EA-B2E45F571E23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\software">
+      <UniqueIdentifier>{F6973149-62F9-0E57-EB66-550957C74516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\vitagxm">
+      <UniqueIdentifier>{ABD6868E-97BA-47E4-001B-4237EC1D3266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sensor">
+      <UniqueIdentifier>{D612E178-C2CA-22C6-2BD2-FB2117A9BDB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sensor\android">
+      <UniqueIdentifier>{2614AA7C-12F8-6AD2-7B58-6525675B5554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sensor\coremotion">
+      <UniqueIdentifier>{6461B9BA-D0CD-74B5-99C1-0C1305ED961D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sensor\dummy">
+      <UniqueIdentifier>{D1690B44-BD62-2A96-E694-0F1BD2EC09A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sensor\n3ds">
+      <UniqueIdentifier>{3D001C21-A98B-89E5-B29C-0CDA1EA7E5E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sensor\vita">
+      <UniqueIdentifier>{F94A2121-65D6-8EE5-6EE7-11DADAF1EAE5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sensor\windows">
+      <UniqueIdentifier>{30CB2E0F-1CAF-EF64-850F-EAB77112DAE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\stdlib">
+      <UniqueIdentifier>{FEE7EA79-EA9F-2CC7-53A7-05233F7EC7B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\test">
+      <UniqueIdentifier>{DC8737CF-C854-92DA-F16D-8082DD99C768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\thread">
+      <UniqueIdentifier>{14796E7B-0031-B0C8-6938-8924550F4BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\thread\generic">
+      <UniqueIdentifier>{20B8ED40-0C9C-AE96-75FC-A8E961FF9818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\thread\n3ds">
+      <UniqueIdentifier>{3BFD9842-A788-0607-B099-89FB1CA46207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\thread\ngage">
+      <UniqueIdentifier>{651AD595-5113-F4E7-7A45-D96C669DD3F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\thread\os2">
+      <UniqueIdentifier>{17908811-035E-7C17-ECF1-EC3DD85E587C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\thread\ps2">
+      <UniqueIdentifier>{58948811-4462-7C17-2DF6-EC3D1963587C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\thread\psp">
+      <UniqueIdentifier>{96948811-8262-7C17-6BF6-EC3D5763587C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\thread\pthread">
+      <UniqueIdentifier>{EB915118-D775-126E-40D6-0CC12CD9FCEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\thread\stdcpp">
+      <UniqueIdentifier>{B1060F5D-1D1D-0DF3-6694-9814D2E9DD7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\thread\vita">
+      <UniqueIdentifier>{F7479E42-63D3-0B07-6CE4-8EFBD8EE6707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\thread\windows">
+      <UniqueIdentifier>{6E8FE519-5A73-A66F-C3D3-A0C2AFD690F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\timer">
+      <UniqueIdentifier>{DD992AB6-4904-DF2C-9242-90D2FEEBBC81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\timer\dummy">
+      <UniqueIdentifier>{18DAF5A4-8465-6369-8D76-E65DF980BF69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\timer\haiku">
+      <UniqueIdentifier>{3E3333A5-AABE-A069-B3CF-235E1FDAFC69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\timer\n3ds">
+      <UniqueIdentifier>{A403C60C-90D1-B912-7965-2A3965D29577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\timer\os2">
+      <UniqueIdentifier>{60ED899B-CCAD-05D2-95E8-4E4F01684AAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\timer\ps2">
+      <UniqueIdentifier>{A1F1899B-0DB2-05D2-D6EC-4E4F426C4AAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\timer\psp">
+      <UniqueIdentifier>{DFF1899B-4BB2-05D2-14ED-4E4F806C4AAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\timer\unix">
+      <UniqueIdentifier>{F0D5CA0C-DCA3-BE12-C537-2F39B1A49A77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\timer\vita">
+      <UniqueIdentifier>{604ECB0C-4C1C-BF12-35B0-2F39211D9B77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\timer\windows">
+      <UniqueIdentifier>{37697654-A37F-74EA-ECF6-FF0B584C4572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video">
+      <UniqueIdentifier>{93A44EB6-FF0E-032D-484D-B4D2B4F6E081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\android">
+      <UniqueIdentifier>{E312F852-4F29-F6E8-98A0-810A04F6C670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\arm">
+      <UniqueIdentifier>{A22780CF-0EE8-FB05-D722-458343A240E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\cocoa">
+      <UniqueIdentifier>{27084BB0-9393-B874-9CA4-3B6908AF1475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\directfb">
+      <UniqueIdentifier>{45539315-3137-546B-9A97-4EBE869A3EED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\dummy">
+      <UniqueIdentifier>{4E9560B0-BA20-CE74-C331-51692F3C2A75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\emscripten">
+      <UniqueIdentifier>{BC123B12-A8A1-C4DB-51C0-D8D63D2ED581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\haiku">
+      <UniqueIdentifier>{74EE9DB0-E079-0B75-E98A-8E6955956775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\khronos">
+      <UniqueIdentifier>{262DBB47-9243-B9DD-DBBA-44FF47108A65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\khronos\EGL">
+      <UniqueIdentifier>{ED4454DE-59B1-0FD9-22A5-A7368ED03141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\khronos\GLES2">
+      <UniqueIdentifier>{3210A0C4-9E47-E85B-A751-4C7F13080F55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\khronos\KHR">
+      <UniqueIdentifier>{9A5E54DE-06CB-0FD9-CFBE-A7363BEA3141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\khronos\vk_video">
+      <UniqueIdentifier>{4C4524FB-3855-D0CB-A10E-35EA8D3DBF64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\khronos\vulkan">
+      <UniqueIdentifier>{064840C9-F26C-8F49-1BB8-74D9073C8E67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\kmsdrm">
+      <UniqueIdentifier>{F0BA39CC-DCB3-581E-05E6-3DA3F13D382A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\n3ds">
+      <UniqueIdentifier>{1A308BBF-06FE-7EC5-EF91-EFEBDBFE5A2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\nacl">
+      <UniqueIdentifier>{A0F38BBF-8CC1-7FC5-7555-F0EB61C25B2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\ngage">
+      <UniqueIdentifier>{24A90DB1-9034-7B75-9945-FE690550D775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\offscreen">
+      <UniqueIdentifier>{DD5B7D89-49BD-5A97-D22A-A1493E8B9156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\os2">
+      <UniqueIdentifier>{166380CF-8223-FC05-4B5E-4583B7DD40E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\pandora">
+      <UniqueIdentifier>{E7DAFBB7-53F1-F94D-9C68-856F08BECAD5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\ps2">
+      <UniqueIdentifier>{576780CF-C327-FC05-8C62-4583F8E140E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\psp">
+      <UniqueIdentifier>{956780CF-0128-FC05-CA62-458336E240E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\qnx">
+      <UniqueIdentifier>{396B80CF-A52B-FC05-6E66-4583DAE540E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\raspberry">
+      <UniqueIdentifier>{FC21462B-6883-2339-F1F0-69EB5D515AF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\riscos">
+      <UniqueIdentifier>{B57045DC-A169-642E-CA9B-49B3B6F3433A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\uikit">
+      <UniqueIdentifier>{48988DB1-B423-FB75-BD34-7E6A293F5776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\vita">
+      <UniqueIdentifier>{D67A90BF-C248-84C5-ABDC-F4EB9749602A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\vivante">
+      <UniqueIdentifier>{5FA71199-CBBD-0F2F-1435-9B50808AE0B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\wayland">
+      <UniqueIdentifier>{B2B89ED3-1ECF-9C69-6746-288BD39B6DF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\windows">
+      <UniqueIdentifier>{EDC97CE5-59E0-7A7B-A257-069D0EAD4B03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\winrt">
+      <UniqueIdentifier>{36D7B1B1-A262-1F76-AB73-A26A177E7B76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\x11">
+      <UniqueIdentifier>{DC8080CF-4841-FC05-117C-45837DFB40E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\yuv2rgb">
+      <UniqueIdentifier>{B38EE49B-1FA5-E231-681C-6E53D471B3B9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\SDL.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_assert.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_atomic.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_audio.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_bits.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_blendmode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_clipboard.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_config_android.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_config_emscripten.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_config_iphoneos.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_config_macosx.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_config_minimal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_config_ngage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_config_os2.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_config_pandora.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_config_windows.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_config_wingdk.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_config_winrt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_config_xbox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_copying.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_cpuinfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_egl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_endian.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_error.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_events.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_filesystem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_gamecontroller.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_gesture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_guid.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_haptic.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_hidapi.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_hints.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_joystick.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_keyboard.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_keycode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_loadso.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_locale.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_log.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_messagebox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_metal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_misc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mouse.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mutex.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_name.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_opengl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_opengl_glext.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_opengles.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_opengles2.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_opengles2_gl2.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_opengles2_gl2ext.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_opengles2_gl2platform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_opengles2_khrplatform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_pixels.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_platform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_power.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_quit.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_rect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_render.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_revision.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_rwops.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_scancode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_sensor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_shape.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_stdinc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_surface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_system.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_syswm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_test.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_test_assert.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_test_common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_test_compare.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_test_crc32.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_test_font.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_test_fuzzer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_test_harness.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_test_images.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_test_log.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_test_md5.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_test_memory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_test_random.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_thread.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_timer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_touch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_version.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_video.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_vulkan.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\begin_code.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\close_code.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SDL_assert_c.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SDL_dataqueue.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SDL_error_c.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SDL_hints_c.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SDL_internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SDL_list.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SDL_log_c.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SDL_utils_c.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\SDL_audio_c.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\SDL_audio_channel_converters.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\SDL_audio_resampler_filter.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\SDL_audiodev_c.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\SDL_sysaudio.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\SDL_wave.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\aaudio\SDL_aaudio.h">
+      <Filter>src\audio\aaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\aaudio\SDL_aaudiofuncs.h">
+      <Filter>src\audio\aaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\alsa\SDL_alsa_audio.h">
+      <Filter>src\audio\alsa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\android\SDL_androidaudio.h">
+      <Filter>src\audio\android</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\arts\SDL_artsaudio.h">
+      <Filter>src\audio\arts</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\coreaudio\SDL_coreaudio.h">
+      <Filter>src\audio\coreaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\directsound\SDL_directsound.h">
+      <Filter>src\audio\directsound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\disk\SDL_diskaudio.h">
+      <Filter>src\audio\disk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\dsp\SDL_dspaudio.h">
+      <Filter>src\audio\dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\dummy\SDL_dummyaudio.h">
+      <Filter>src\audio\dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\emscripten\SDL_emscriptenaudio.h">
+      <Filter>src\audio\emscripten</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\esd\SDL_esdaudio.h">
+      <Filter>src\audio\esd</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\fusionsound\SDL_fsaudio.h">
+      <Filter>src\audio\fusionsound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\haiku\SDL_haikuaudio.h">
+      <Filter>src\audio\haiku</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\jack\SDL_jackaudio.h">
+      <Filter>src\audio\jack</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\n3ds\SDL_n3dsaudio.h">
+      <Filter>src\audio\n3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\nacl\SDL_naclaudio.h">
+      <Filter>src\audio\nacl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\nas\SDL_nasaudio.h">
+      <Filter>src\audio\nas</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\netbsd\SDL_netbsdaudio.h">
+      <Filter>src\audio\netbsd</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\openslES\SDL_openslES.h">
+      <Filter>src\audio\openslES</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\os2\SDL_os2audio.h">
+      <Filter>src\audio\os2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\paudio\SDL_paudio.h">
+      <Filter>src\audio\paudio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\pipewire\SDL_pipewire.h">
+      <Filter>src\audio\pipewire</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\ps2\SDL_ps2audio.h">
+      <Filter>src\audio\ps2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\psp\SDL_pspaudio.h">
+      <Filter>src\audio\psp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\pulseaudio\SDL_pulseaudio.h">
+      <Filter>src\audio\pulseaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\qsa\SDL_qsa_audio.h">
+      <Filter>src\audio\qsa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\sndio\SDL_sndioaudio.h">
+      <Filter>src\audio\sndio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\sun\SDL_sunaudio.h">
+      <Filter>src\audio\sun</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\vita\SDL_vitaaudio.h">
+      <Filter>src\audio\vita</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\wasapi\SDL_wasapi.h">
+      <Filter>src\audio\wasapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\winmm\SDL_winmm.h">
+      <Filter>src\audio\winmm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\android\SDL_android.h">
+      <Filter>src\core\android</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\freebsd\SDL_evdev_kbd_default_keyaccmap.h">
+      <Filter>src\core\freebsd</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gdk\SDL_gdk.h">
+      <Filter>src\core\gdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\linux\SDL_dbus.h">
+      <Filter>src\core\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\linux\SDL_evdev.h">
+      <Filter>src\core\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\linux\SDL_evdev_capabilities.h">
+      <Filter>src\core\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\linux\SDL_evdev_kbd.h">
+      <Filter>src\core\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\linux\SDL_evdev_kbd_default_accents.h">
+      <Filter>src\core\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\linux\SDL_evdev_kbd_default_keymap.h">
+      <Filter>src\core\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\linux\SDL_fcitx.h">
+      <Filter>src\core\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\linux\SDL_ibus.h">
+      <Filter>src\core\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\linux\SDL_ime.h">
+      <Filter>src\core\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\linux\SDL_sandbox.h">
+      <Filter>src\core\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\linux\SDL_udev.h">
+      <Filter>src\core\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\openbsd\SDL_wscons.h">
+      <Filter>src\core\openbsd</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\os2\SDL_os2.h">
+      <Filter>src\core\os2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\os2\geniconv\geniconv.h">
+      <Filter>src\core\os2\geniconv</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\os2\geniconv\iconv.h">
+      <Filter>src\core\os2\geniconv</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\os2\geniconv\os2cp.h">
+      <Filter>src\core\os2\geniconv</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\unix\SDL_poll.h">
+      <Filter>src\core\unix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\windows\SDL_directx.h">
+      <Filter>src\core\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\windows\SDL_hid.h">
+      <Filter>src\core\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\windows\SDL_immdevice.h">
+      <Filter>src\core\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\windows\SDL_windows.h">
+      <Filter>src\core\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\windows\SDL_xinput.h">
+      <Filter>src\core\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\winrt\SDL_winrtapp_common.h">
+      <Filter>src\core\winrt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\winrt\SDL_winrtapp_direct3d.h">
+      <Filter>src\core\winrt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\winrt\SDL_winrtapp_xaml.h">
+      <Filter>src\core\winrt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dynapi\SDL_dynapi.h">
+      <Filter>src\dynapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dynapi\SDL_dynapi_overrides.h">
+      <Filter>src\dynapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dynapi\SDL_dynapi_procs.h">
+      <Filter>src\dynapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\events\SDL_clipboardevents_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\events\SDL_displayevents_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\events\SDL_dropevents_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\events\SDL_events_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\events\SDL_gesture_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\events\SDL_keyboard_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\events\SDL_keysym_to_scancode_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\events\SDL_mouse_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\events\SDL_scancode_tables_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\events\SDL_touch_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\events\SDL_windowevents_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\events\blank_cursor.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\events\default_cursor.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\events\imKStoUCS.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\events\scancodes_ascii.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\events\scancodes_darwin.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\events\scancodes_linux.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\events\scancodes_windows.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\events\scancodes_xfree86.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file\cocoa\SDL_rwopsbundlesupport.h">
+      <Filter>src\file\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file\n3ds\SDL_rwopsromfs.h">
+      <Filter>src\file\n3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="src\haptic\SDL_haptic_c.h">
+      <Filter>src\haptic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\haptic\SDL_syshaptic.h">
+      <Filter>src\haptic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\haptic\android\SDL_syshaptic_c.h">
+      <Filter>src\haptic\android</Filter>
+    </ClInclude>
+    <ClInclude Include="src\haptic\darwin\SDL_syshaptic_c.h">
+      <Filter>src\haptic\darwin</Filter>
+    </ClInclude>
+    <ClInclude Include="src\haptic\windows\SDL_dinputhaptic_c.h">
+      <Filter>src\haptic\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\haptic\windows\SDL_windowshaptic_c.h">
+      <Filter>src\haptic\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\haptic\windows\SDL_xinputhaptic_c.h">
+      <Filter>src\haptic\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hidapi\SDL_hidapi_c.h">
+      <Filter>src\hidapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hidapi\hidapi\hidapi.h">
+      <Filter>src\hidapi\hidapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hidapi\testgui\mac_support.h">
+      <Filter>src\hidapi\testgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\internal_include\SDL_internal_proxy.h">
+      <Filter>src\internal_include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\SDL_gamecontrollerdb.h">
+      <Filter>src\joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\SDL_joystick_c.h">
+      <Filter>src\joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\SDL_steam_virtual_gamepad.h">
+      <Filter>src\joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\SDL_sysjoystick.h">
+      <Filter>src\joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\android\SDL_sysjoystick_c.h">
+      <Filter>src\joystick\android</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\controller_list.h">
+      <Filter>src\joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\controller_type.h">
+      <Filter>src\joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\darwin\SDL_iokitjoystick_c.h">
+      <Filter>src\joystick\darwin</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\emscripten\SDL_sysjoystick_c.h">
+      <Filter>src\joystick\emscripten</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\hidapi\SDL_hidapi_nintendo.h">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\hidapi\SDL_hidapi_rumble.h">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\hidapi\SDL_hidapijoystick_c.h">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\hidapi\steam\controller_constants.h">
+      <Filter>src\joystick\hidapi\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\hidapi\steam\controller_structs.h">
+      <Filter>src\joystick\hidapi\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\iphoneos\SDL_mfijoystick_c.h">
+      <Filter>src\joystick\iphoneos</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\linux\SDL_sysjoystick_c.h">
+      <Filter>src\joystick\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\steam\SDL_steamcontroller.h">
+      <Filter>src\joystick\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\usb_ids.h">
+      <Filter>src\joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\virtual\SDL_virtualjoystick_c.h">
+      <Filter>src\joystick\virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\windows\SDL_dinputjoystick_c.h">
+      <Filter>src\joystick\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\windows\SDL_rawinputjoystick_c.h">
+      <Filter>src\joystick\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\windows\SDL_windowsjoystick_c.h">
+      <Filter>src\joystick\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joystick\windows\SDL_xinputjoystick_c.h">
+      <Filter>src\joystick\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libm\math_libm.h">
+      <Filter>src\libm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libm\math_private.h">
+      <Filter>src\libm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\locale\SDL_syslocale.h">
+      <Filter>src\locale</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main\haiku\SDL_BApp.h">
+      <Filter>src\main\haiku</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main\haiku\SDL_BeApp.h">
+      <Filter>src\main\haiku</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\SDL_sysurl.h">
+      <Filter>src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\power\SDL_syspower.h">
+      <Filter>src\power</Filter>
+    </ClInclude>
+    <ClInclude Include="src\power\uikit\SDL_syspower.h">
+      <Filter>src\power\uikit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\SDL_d3dmath.h">
+      <Filter>src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\SDL_sysrender.h">
+      <Filter>src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\SDL_yuv_sw_c.h">
+      <Filter>src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\direct3d\SDL_shaders_d3d.h">
+      <Filter>src\render\direct3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\direct3d11\SDL_render_winrt.h">
+      <Filter>src\render\direct3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\direct3d11\SDL_shaders_d3d11.h">
+      <Filter>src\render\direct3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\direct3d12\SDL_render_d3d12_xbox.h">
+      <Filter>src\render\direct3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\direct3d12\SDL_shaders_d3d12.h">
+      <Filter>src\render\direct3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\metal\SDL_shaders_metal_ios.h">
+      <Filter>src\render\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\metal\SDL_shaders_metal_iphonesimulator.h">
+      <Filter>src\render\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\metal\SDL_shaders_metal_osx.h">
+      <Filter>src\render\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\metal\SDL_shaders_metal_tvos.h">
+      <Filter>src\render\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\metal\SDL_shaders_metal_tvsimulator.h">
+      <Filter>src\render\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\opengl\SDL_glfuncs.h">
+      <Filter>src\render\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\opengl\SDL_shaders_gl.h">
+      <Filter>src\render\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\opengles\SDL_glesfuncs.h">
+      <Filter>src\render\opengles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\opengles2\SDL_gles2funcs.h">
+      <Filter>src\render\opengles2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\opengles2\SDL_shaders_gles2.h">
+      <Filter>src\render\opengles2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\software\SDL_blendfillrect.h">
+      <Filter>src\render\software</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\software\SDL_blendline.h">
+      <Filter>src\render\software</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\software\SDL_blendpoint.h">
+      <Filter>src\render\software</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\software\SDL_draw.h">
+      <Filter>src\render\software</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\software\SDL_drawline.h">
+      <Filter>src\render\software</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\software\SDL_drawpoint.h">
+      <Filter>src\render\software</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\software\SDL_render_sw_c.h">
+      <Filter>src\render\software</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\software\SDL_rotate.h">
+      <Filter>src\render\software</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\software\SDL_triangle.h">
+      <Filter>src\render\software</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\vitagxm\SDL_render_vita_gxm_memory.h">
+      <Filter>src\render\vitagxm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\vitagxm\SDL_render_vita_gxm_shaders.h">
+      <Filter>src\render\vitagxm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\vitagxm\SDL_render_vita_gxm_tools.h">
+      <Filter>src\render\vitagxm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\vitagxm\SDL_render_vita_gxm_types.h">
+      <Filter>src\render\vitagxm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sensor\SDL_sensor_c.h">
+      <Filter>src\sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sensor\SDL_syssensor.h">
+      <Filter>src\sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sensor\android\SDL_androidsensor.h">
+      <Filter>src\sensor\android</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sensor\coremotion\SDL_coremotionsensor.h">
+      <Filter>src\sensor\coremotion</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sensor\dummy\SDL_dummysensor.h">
+      <Filter>src\sensor\dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sensor\vita\SDL_vitasensor.h">
+      <Filter>src\sensor\vita</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sensor\windows\SDL_windowssensor.h">
+      <Filter>src\sensor\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stdlib\SDL_vacopy.h">
+      <Filter>src\stdlib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\SDL_systhread.h">
+      <Filter>src\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\SDL_thread_c.h">
+      <Filter>src\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\generic\SDL_syscond_c.h">
+      <Filter>src\thread\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\generic\SDL_sysmutex_c.h">
+      <Filter>src\thread\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\generic\SDL_systhread_c.h">
+      <Filter>src\thread\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\n3ds\SDL_sysmutex_c.h">
+      <Filter>src\thread\n3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\n3ds\SDL_systhread_c.h">
+      <Filter>src\thread\n3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\ngage\SDL_systhread_c.h">
+      <Filter>src\thread\ngage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\os2\SDL_systhread_c.h">
+      <Filter>src\thread\os2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\os2\SDL_systls_c.h">
+      <Filter>src\thread\os2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\ps2\SDL_systhread_c.h">
+      <Filter>src\thread\ps2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\psp\SDL_sysmutex_c.h">
+      <Filter>src\thread\psp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\psp\SDL_systhread_c.h">
+      <Filter>src\thread\psp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\pthread\SDL_sysmutex_c.h">
+      <Filter>src\thread\pthread</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\pthread\SDL_systhread_c.h">
+      <Filter>src\thread\pthread</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\stdcpp\SDL_sysmutex_c.h">
+      <Filter>src\thread\stdcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\stdcpp\SDL_systhread_c.h">
+      <Filter>src\thread\stdcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\vita\SDL_sysmutex_c.h">
+      <Filter>src\thread\vita</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\vita\SDL_systhread_c.h">
+      <Filter>src\thread\vita</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\windows\SDL_sysmutex_c.h">
+      <Filter>src\thread\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread\windows\SDL_systhread_c.h">
+      <Filter>src\thread\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timer\SDL_timer_c.h">
+      <Filter>src\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\SDL_RLEaccel_c.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\SDL_blit.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\SDL_blit_auto.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\SDL_blit_copy.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\SDL_blit_slow.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\SDL_egl_c.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\SDL_pixels_c.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\SDL_rect_c.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\SDL_rect_impl.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\SDL_shape_internals.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\SDL_sysvideo.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\SDL_vulkan_internal.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\SDL_yuv_c.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\android\SDL_androidclipboard.h">
+      <Filter>src\video\android</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\android\SDL_androidevents.h">
+      <Filter>src\video\android</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\android\SDL_androidgl.h">
+      <Filter>src\video\android</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\android\SDL_androidkeyboard.h">
+      <Filter>src\video\android</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\android\SDL_androidmessagebox.h">
+      <Filter>src\video\android</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\android\SDL_androidmouse.h">
+      <Filter>src\video\android</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\android\SDL_androidtouch.h">
+      <Filter>src\video\android</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\android\SDL_androidvideo.h">
+      <Filter>src\video\android</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\android\SDL_androidvulkan.h">
+      <Filter>src\video\android</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\android\SDL_androidwindow.h">
+      <Filter>src\video\android</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\arm\pixman-arm-asm.h">
+      <Filter>src\video\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\arm\pixman-arm-neon-asm.h">
+      <Filter>src\video\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\arm\pixman-arm-simd-asm.h">
+      <Filter>src\video\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\cocoa\SDL_cocoaclipboard.h">
+      <Filter>src\video\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\cocoa\SDL_cocoaevents.h">
+      <Filter>src\video\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\cocoa\SDL_cocoakeyboard.h">
+      <Filter>src\video\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\cocoa\SDL_cocoamessagebox.h">
+      <Filter>src\video\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\cocoa\SDL_cocoametalview.h">
+      <Filter>src\video\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\cocoa\SDL_cocoamodes.h">
+      <Filter>src\video\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\cocoa\SDL_cocoamouse.h">
+      <Filter>src\video\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\cocoa\SDL_cocoaopengl.h">
+      <Filter>src\video\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\cocoa\SDL_cocoaopengles.h">
+      <Filter>src\video\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\cocoa\SDL_cocoashape.h">
+      <Filter>src\video\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\cocoa\SDL_cocoavideo.h">
+      <Filter>src\video\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\cocoa\SDL_cocoavulkan.h">
+      <Filter>src\video\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\cocoa\SDL_cocoawindow.h">
+      <Filter>src\video\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\directfb\SDL_DirectFB_WM.h">
+      <Filter>src\video\directfb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\directfb\SDL_DirectFB_dyn.h">
+      <Filter>src\video\directfb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\directfb\SDL_DirectFB_events.h">
+      <Filter>src\video\directfb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\directfb\SDL_DirectFB_modes.h">
+      <Filter>src\video\directfb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\directfb\SDL_DirectFB_mouse.h">
+      <Filter>src\video\directfb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\directfb\SDL_DirectFB_opengl.h">
+      <Filter>src\video\directfb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\directfb\SDL_DirectFB_render.h">
+      <Filter>src\video\directfb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\directfb\SDL_DirectFB_shape.h">
+      <Filter>src\video\directfb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\directfb\SDL_DirectFB_video.h">
+      <Filter>src\video\directfb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\directfb\SDL_DirectFB_vulkan.h">
+      <Filter>src\video\directfb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\directfb\SDL_DirectFB_window.h">
+      <Filter>src\video\directfb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\dummy\SDL_nullevents_c.h">
+      <Filter>src\video\dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\dummy\SDL_nullframebuffer_c.h">
+      <Filter>src\video\dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\dummy\SDL_nullvideo.h">
+      <Filter>src\video\dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\emscripten\SDL_emscriptenevents.h">
+      <Filter>src\video\emscripten</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\emscripten\SDL_emscriptenframebuffer.h">
+      <Filter>src\video\emscripten</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\emscripten\SDL_emscriptenmouse.h">
+      <Filter>src\video\emscripten</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\emscripten\SDL_emscriptenopengles.h">
+      <Filter>src\video\emscripten</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\emscripten\SDL_emscriptenvideo.h">
+      <Filter>src\video\emscripten</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\haiku\SDL_BApp.h">
+      <Filter>src\video\haiku</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\haiku\SDL_BWin.h">
+      <Filter>src\video\haiku</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\haiku\SDL_bclipboard.h">
+      <Filter>src\video\haiku</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\haiku\SDL_bevents.h">
+      <Filter>src\video\haiku</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\haiku\SDL_bframebuffer.h">
+      <Filter>src\video\haiku</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\haiku\SDL_bkeyboard.h">
+      <Filter>src\video\haiku</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\haiku\SDL_bmessagebox.h">
+      <Filter>src\video\haiku</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\haiku\SDL_bmodes.h">
+      <Filter>src\video\haiku</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\haiku\SDL_bopengl.h">
+      <Filter>src\video\haiku</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\haiku\SDL_bvideo.h">
+      <Filter>src\video\haiku</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\haiku\SDL_bwindow.h">
+      <Filter>src\video\haiku</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\EGL\egl.h">
+      <Filter>src\video\khronos\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\EGL\eglext.h">
+      <Filter>src\video\khronos\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\EGL\eglplatform.h">
+      <Filter>src\video\khronos\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\GLES2\gl2.h">
+      <Filter>src\video\khronos\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\GLES2\gl2ext.h">
+      <Filter>src\video\khronos\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\GLES2\gl2platform.h">
+      <Filter>src\video\khronos\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\KHR\khrplatform.h">
+      <Filter>src\video\khronos\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vk_video\vulkan_video_codec_h264std.h">
+      <Filter>src\video\khronos\vk_video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vk_video\vulkan_video_codec_h264std_decode.h">
+      <Filter>src\video\khronos\vk_video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vk_video\vulkan_video_codec_h264std_encode.h">
+      <Filter>src\video\khronos\vk_video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vk_video\vulkan_video_codec_h265std.h">
+      <Filter>src\video\khronos\vk_video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vk_video\vulkan_video_codec_h265std_decode.h">
+      <Filter>src\video\khronos\vk_video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vk_video\vulkan_video_codec_h265std_encode.h">
+      <Filter>src\video\khronos\vk_video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vk_video\vulkan_video_codecs_common.h">
+      <Filter>src\video\khronos\vk_video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vk_icd.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vk_layer.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vk_platform.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vk_sdk_platform.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vulkan.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vulkan_android.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vulkan_beta.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vulkan_core.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vulkan_directfb.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vulkan_fuchsia.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vulkan_ggp.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vulkan_ios.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vulkan_macos.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vulkan_metal.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vulkan_screen.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vulkan_vi.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vulkan_wayland.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vulkan_win32.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vulkan_xcb.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vulkan_xlib.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\khronos\vulkan\vulkan_xlib_xrandr.h">
+      <Filter>src\video\khronos\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\kmsdrm\SDL_kmsdrmdyn.h">
+      <Filter>src\video\kmsdrm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\kmsdrm\SDL_kmsdrmevents.h">
+      <Filter>src\video\kmsdrm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\kmsdrm\SDL_kmsdrmmouse.h">
+      <Filter>src\video\kmsdrm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\kmsdrm\SDL_kmsdrmopengles.h">
+      <Filter>src\video\kmsdrm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\kmsdrm\SDL_kmsdrmsym.h">
+      <Filter>src\video\kmsdrm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\kmsdrm\SDL_kmsdrmvideo.h">
+      <Filter>src\video\kmsdrm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\kmsdrm\SDL_kmsdrmvulkan.h">
+      <Filter>src\video\kmsdrm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\n3ds\SDL_n3dsevents_c.h">
+      <Filter>src\video\n3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\n3ds\SDL_n3dsframebuffer_c.h">
+      <Filter>src\video\n3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\n3ds\SDL_n3dsswkb.h">
+      <Filter>src\video\n3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\n3ds\SDL_n3dstouch.h">
+      <Filter>src\video\n3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\n3ds\SDL_n3dsvideo.h">
+      <Filter>src\video\n3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\nacl\SDL_naclevents_c.h">
+      <Filter>src\video\nacl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\nacl\SDL_naclopengles.h">
+      <Filter>src\video\nacl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\nacl\SDL_naclvideo.h">
+      <Filter>src\video\nacl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\nacl\SDL_naclwindow.h">
+      <Filter>src\video\nacl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\ngage\SDL_ngageevents_c.h">
+      <Filter>src\video\ngage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\ngage\SDL_ngageframebuffer_c.h">
+      <Filter>src\video\ngage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\ngage\SDL_ngagevideo.h">
+      <Filter>src\video\ngage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\ngage\SDL_ngagewindow.h">
+      <Filter>src\video\ngage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\offscreen\SDL_offscreenevents_c.h">
+      <Filter>src\video\offscreen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\offscreen\SDL_offscreenframebuffer_c.h">
+      <Filter>src\video\offscreen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\offscreen\SDL_offscreenopengles.h">
+      <Filter>src\video\offscreen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\offscreen\SDL_offscreenvideo.h">
+      <Filter>src\video\offscreen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\offscreen\SDL_offscreenwindow.h">
+      <Filter>src\video\offscreen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\os2\SDL_gradd.h">
+      <Filter>src\video\os2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\os2\SDL_os2messagebox.h">
+      <Filter>src\video\os2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\os2\SDL_os2mouse.h">
+      <Filter>src\video\os2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\os2\SDL_os2output.h">
+      <Filter>src\video\os2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\os2\SDL_os2util.h">
+      <Filter>src\video\os2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\os2\SDL_os2video.h">
+      <Filter>src\video\os2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\pandora\SDL_pandora.h">
+      <Filter>src\video\pandora</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\pandora\SDL_pandora_events.h">
+      <Filter>src\video\pandora</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\ps2\SDL_ps2video.h">
+      <Filter>src\video\ps2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\psp\SDL_pspevents_c.h">
+      <Filter>src\video\psp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\psp\SDL_pspgl_c.h">
+      <Filter>src\video\psp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\psp\SDL_pspmouse_c.h">
+      <Filter>src\video\psp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\psp\SDL_pspvideo.h">
+      <Filter>src\video\psp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\qnx\sdl_qnx.h">
+      <Filter>src\video\qnx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\raspberry\SDL_rpievents_c.h">
+      <Filter>src\video\raspberry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\raspberry\SDL_rpimouse.h">
+      <Filter>src\video\raspberry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\raspberry\SDL_rpiopengles.h">
+      <Filter>src\video\raspberry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\raspberry\SDL_rpivideo.h">
+      <Filter>src\video\raspberry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\riscos\SDL_riscosdefs.h">
+      <Filter>src\video\riscos</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\riscos\SDL_riscosevents_c.h">
+      <Filter>src\video\riscos</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\riscos\SDL_riscosframebuffer_c.h">
+      <Filter>src\video\riscos</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\riscos\SDL_riscosmessagebox.h">
+      <Filter>src\video\riscos</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\riscos\SDL_riscosmodes.h">
+      <Filter>src\video\riscos</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\riscos\SDL_riscosmouse.h">
+      <Filter>src\video\riscos</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\riscos\SDL_riscosvideo.h">
+      <Filter>src\video\riscos</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\riscos\SDL_riscoswindow.h">
+      <Filter>src\video\riscos</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\riscos\scancodes_riscos.h">
+      <Filter>src\video\riscos</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\uikit\SDL_uikitappdelegate.h">
+      <Filter>src\video\uikit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\uikit\SDL_uikitclipboard.h">
+      <Filter>src\video\uikit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\uikit\SDL_uikitevents.h">
+      <Filter>src\video\uikit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\uikit\SDL_uikitmessagebox.h">
+      <Filter>src\video\uikit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\uikit\SDL_uikitmetalview.h">
+      <Filter>src\video\uikit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\uikit\SDL_uikitmodes.h">
+      <Filter>src\video\uikit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\uikit\SDL_uikitopengles.h">
+      <Filter>src\video\uikit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\uikit\SDL_uikitopenglview.h">
+      <Filter>src\video\uikit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\uikit\SDL_uikitvideo.h">
+      <Filter>src\video\uikit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\uikit\SDL_uikitview.h">
+      <Filter>src\video\uikit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\uikit\SDL_uikitviewcontroller.h">
+      <Filter>src\video\uikit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\uikit\SDL_uikitvulkan.h">
+      <Filter>src\video\uikit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\uikit\SDL_uikitwindow.h">
+      <Filter>src\video\uikit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\vita\SDL_vitaframebuffer.h">
+      <Filter>src\video\vita</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\vita\SDL_vitagl_pvr_c.h">
+      <Filter>src\video\vita</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\vita\SDL_vitagles_c.h">
+      <Filter>src\video\vita</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\vita\SDL_vitagles_pvr_c.h">
+      <Filter>src\video\vita</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\vita\SDL_vitakeyboard.h">
+      <Filter>src\video\vita</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\vita\SDL_vitamessagebox.h">
+      <Filter>src\video\vita</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\vita\SDL_vitamouse_c.h">
+      <Filter>src\video\vita</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\vita\SDL_vitatouch.h">
+      <Filter>src\video\vita</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\vita\SDL_vitavideo.h">
+      <Filter>src\video\vita</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\vivante\SDL_vivanteopengles.h">
+      <Filter>src\video\vivante</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\vivante\SDL_vivanteplatform.h">
+      <Filter>src\video\vivante</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\vivante\SDL_vivantevideo.h">
+      <Filter>src\video\vivante</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\vivante\SDL_vivantevulkan.h">
+      <Filter>src\video\vivante</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\wayland\SDL_waylandclipboard.h">
+      <Filter>src\video\wayland</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\wayland\SDL_waylanddatamanager.h">
+      <Filter>src\video\wayland</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\wayland\SDL_waylanddyn.h">
+      <Filter>src\video\wayland</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\wayland\SDL_waylandevents_c.h">
+      <Filter>src\video\wayland</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\wayland\SDL_waylandkeyboard.h">
+      <Filter>src\video\wayland</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\wayland\SDL_waylandmessagebox.h">
+      <Filter>src\video\wayland</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\wayland\SDL_waylandmouse.h">
+      <Filter>src\video\wayland</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\wayland\SDL_waylandopengles.h">
+      <Filter>src\video\wayland</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\wayland\SDL_waylandsym.h">
+      <Filter>src\video\wayland</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\wayland\SDL_waylandtouch.h">
+      <Filter>src\video\wayland</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\wayland\SDL_waylandvideo.h">
+      <Filter>src\video\wayland</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\wayland\SDL_waylandvulkan.h">
+      <Filter>src\video\wayland</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\wayland\SDL_waylandwindow.h">
+      <Filter>src\video\wayland</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\windows\SDL_msctf.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\windows\SDL_vkeys.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\windows\SDL_windowsclipboard.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\windows\SDL_windowsevents.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\windows\SDL_windowsframebuffer.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\windows\SDL_windowskeyboard.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\windows\SDL_windowsmessagebox.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\windows\SDL_windowsmodes.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\windows\SDL_windowsmouse.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\windows\SDL_windowsopengl.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\windows\SDL_windowsopengles.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\windows\SDL_windowsshape.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\windows\SDL_windowsvideo.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\windows\SDL_windowsvulkan.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\windows\SDL_windowswindow.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\windows\wmmsg.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\winrt\SDL_winrtevents_c.h">
+      <Filter>src\video\winrt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\winrt\SDL_winrtgamebar_cpp.h">
+      <Filter>src\video\winrt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\winrt\SDL_winrtmessagebox.h">
+      <Filter>src\video\winrt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\winrt\SDL_winrtmouse_c.h">
+      <Filter>src\video\winrt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\winrt\SDL_winrtopengles.h">
+      <Filter>src\video\winrt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\winrt\SDL_winrtvideo_cpp.h">
+      <Filter>src\video\winrt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\x11\SDL_x11clipboard.h">
+      <Filter>src\video\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\x11\SDL_x11dyn.h">
+      <Filter>src\video\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\x11\SDL_x11events.h">
+      <Filter>src\video\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\x11\SDL_x11framebuffer.h">
+      <Filter>src\video\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\x11\SDL_x11keyboard.h">
+      <Filter>src\video\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\x11\SDL_x11messagebox.h">
+      <Filter>src\video\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\x11\SDL_x11modes.h">
+      <Filter>src\video\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\x11\SDL_x11mouse.h">
+      <Filter>src\video\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\x11\SDL_x11opengl.h">
+      <Filter>src\video\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\x11\SDL_x11opengles.h">
+      <Filter>src\video\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\x11\SDL_x11shape.h">
+      <Filter>src\video\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\x11\SDL_x11sym.h">
+      <Filter>src\video\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\x11\SDL_x11touch.h">
+      <Filter>src\video\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\x11\SDL_x11video.h">
+      <Filter>src\video\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\x11\SDL_x11vulkan.h">
+      <Filter>src\video\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\x11\SDL_x11window.h">
+      <Filter>src\video\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\x11\SDL_x11xfixes.h">
+      <Filter>src\video\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\x11\SDL_x11xinput2.h">
+      <Filter>src\video\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\x11\edid.h">
+      <Filter>src\video\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\yuv2rgb\yuv_rgb.h">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\yuv2rgb\yuv_rgb_common.h">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\yuv2rgb\yuv_rgb_internal.h">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\yuv2rgb\yuv_rgb_lsx.h">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\yuv2rgb\yuv_rgb_lsx_func.h">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\yuv2rgb\yuv_rgb_sse.h">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\yuv2rgb\yuv_rgb_sse_func.h">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\yuv2rgb\yuv_rgb_std.h">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\yuv2rgb\yuv_rgb_std_func.h">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\SDL.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_assert.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_dataqueue.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_error.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_guid.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_hints.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_list.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_log.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_utils.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\atomic\SDL_atomic.c">
+      <Filter>src\atomic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\atomic\SDL_spinlock.c">
+      <Filter>src\atomic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\SDL_audio.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\SDL_audiocvt.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\SDL_audiodev.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\SDL_audiotypecvt.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\SDL_mixer.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\SDL_wave.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\aaudio\SDL_aaudio.c">
+      <Filter>src\audio\aaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\alsa\SDL_alsa_audio.c">
+      <Filter>src\audio\alsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\android\SDL_androidaudio.c">
+      <Filter>src\audio\android</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\arts\SDL_artsaudio.c">
+      <Filter>src\audio\arts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\directsound\SDL_directsound.c">
+      <Filter>src\audio\directsound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\disk\SDL_diskaudio.c">
+      <Filter>src\audio\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\dsp\SDL_dspaudio.c">
+      <Filter>src\audio\dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\dummy\SDL_dummyaudio.c">
+      <Filter>src\audio\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\emscripten\SDL_emscriptenaudio.c">
+      <Filter>src\audio\emscripten</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\esd\SDL_esdaudio.c">
+      <Filter>src\audio\esd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\fusionsound\SDL_fsaudio.c">
+      <Filter>src\audio\fusionsound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\jack\SDL_jackaudio.c">
+      <Filter>src\audio\jack</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\n3ds\SDL_n3dsaudio.c">
+      <Filter>src\audio\n3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\nacl\SDL_naclaudio.c">
+      <Filter>src\audio\nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\nas\SDL_nasaudio.c">
+      <Filter>src\audio\nas</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\netbsd\SDL_netbsdaudio.c">
+      <Filter>src\audio\netbsd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\openslES\SDL_openslES.c">
+      <Filter>src\audio\openslES</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\os2\SDL_os2audio.c">
+      <Filter>src\audio\os2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\paudio\SDL_paudio.c">
+      <Filter>src\audio\paudio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\pipewire\SDL_pipewire.c">
+      <Filter>src\audio\pipewire</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\ps2\SDL_ps2audio.c">
+      <Filter>src\audio\ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\psp\SDL_pspaudio.c">
+      <Filter>src\audio\psp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\pulseaudio\SDL_pulseaudio.c">
+      <Filter>src\audio\pulseaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\qsa\SDL_qsa_audio.c">
+      <Filter>src\audio\qsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\sndio\SDL_sndioaudio.c">
+      <Filter>src\audio\sndio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\sun\SDL_sunaudio.c">
+      <Filter>src\audio\sun</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\vita\SDL_vitaaudio.c">
+      <Filter>src\audio\vita</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\wasapi\SDL_wasapi.c">
+      <Filter>src\audio\wasapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\wasapi\SDL_wasapi_win32.c">
+      <Filter>src\audio\wasapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\winmm\SDL_winmm.c">
+      <Filter>src\audio\winmm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\android\SDL_android.c">
+      <Filter>src\core\android</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\freebsd\SDL_evdev_kbd_freebsd.c">
+      <Filter>src\core\freebsd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\linux\SDL_dbus.c">
+      <Filter>src\core\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\linux\SDL_evdev.c">
+      <Filter>src\core\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\linux\SDL_evdev_capabilities.c">
+      <Filter>src\core\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\linux\SDL_evdev_kbd.c">
+      <Filter>src\core\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\linux\SDL_fcitx.c">
+      <Filter>src\core\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\linux\SDL_ibus.c">
+      <Filter>src\core\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\linux\SDL_ime.c">
+      <Filter>src\core\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\linux\SDL_sandbox.c">
+      <Filter>src\core\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\linux\SDL_threadprio.c">
+      <Filter>src\core\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\linux\SDL_udev.c">
+      <Filter>src\core\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\openbsd\SDL_wscons_kbd.c">
+      <Filter>src\core\openbsd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\openbsd\SDL_wscons_mouse.c">
+      <Filter>src\core\openbsd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\os2\SDL_os2.c">
+      <Filter>src\core\os2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\os2\geniconv\geniconv.c">
+      <Filter>src\core\os2\geniconv</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\os2\geniconv\os2cp.c">
+      <Filter>src\core\os2\geniconv</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\os2\geniconv\os2iconv.c">
+      <Filter>src\core\os2\geniconv</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\os2\geniconv\sys2utf8.c">
+      <Filter>src\core\os2\geniconv</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\os2\geniconv\test.c">
+      <Filter>src\core\os2\geniconv</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\unix\SDL_poll.c">
+      <Filter>src\core\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\windows\SDL_hid.c">
+      <Filter>src\core\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\windows\SDL_immdevice.c">
+      <Filter>src\core\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\windows\SDL_windows.c">
+      <Filter>src\core\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\windows\SDL_xinput.c">
+      <Filter>src\core\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpuinfo\SDL_cpuinfo.c">
+      <Filter>src\cpuinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynapi\SDL_dynapi.c">
+      <Filter>src\dynapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\events\SDL_clipboardevents.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\events\SDL_displayevents.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\events\SDL_dropevents.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\events\SDL_events.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\events\SDL_gesture.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\events\SDL_keyboard.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\events\SDL_keysym_to_scancode.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\events\SDL_mouse.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\events\SDL_quit.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\events\SDL_scancode_tables.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\events\SDL_touch.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\events\SDL_windowevents.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\events\imKStoUCS.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file\SDL_rwops.c">
+      <Filter>src\file</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file\n3ds\SDL_rwopsromfs.c">
+      <Filter>src\file\n3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filesystem\android\SDL_sysfilesystem.c">
+      <Filter>src\filesystem\android</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filesystem\dummy\SDL_sysfilesystem.c">
+      <Filter>src\filesystem\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filesystem\emscripten\SDL_sysfilesystem.c">
+      <Filter>src\filesystem\emscripten</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filesystem\n3ds\SDL_sysfilesystem.c">
+      <Filter>src\filesystem\n3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filesystem\nacl\SDL_sysfilesystem.c">
+      <Filter>src\filesystem\nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filesystem\os2\SDL_sysfilesystem.c">
+      <Filter>src\filesystem\os2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filesystem\ps2\SDL_sysfilesystem.c">
+      <Filter>src\filesystem\ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filesystem\psp\SDL_sysfilesystem.c">
+      <Filter>src\filesystem\psp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filesystem\riscos\SDL_sysfilesystem.c">
+      <Filter>src\filesystem\riscos</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filesystem\unix\SDL_sysfilesystem.c">
+      <Filter>src\filesystem\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filesystem\vita\SDL_sysfilesystem.c">
+      <Filter>src\filesystem\vita</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filesystem\windows\SDL_sysfilesystem.c">
+      <Filter>src\filesystem\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\haptic\SDL_haptic.c">
+      <Filter>src\haptic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\haptic\android\SDL_syshaptic.c">
+      <Filter>src\haptic\android</Filter>
+    </ClCompile>
+    <ClCompile Include="src\haptic\darwin\SDL_syshaptic.c">
+      <Filter>src\haptic\darwin</Filter>
+    </ClCompile>
+    <ClCompile Include="src\haptic\dummy\SDL_syshaptic.c">
+      <Filter>src\haptic\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\haptic\linux\SDL_syshaptic.c">
+      <Filter>src\haptic\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\haptic\windows\SDL_dinputhaptic.c">
+      <Filter>src\haptic\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\haptic\windows\SDL_windowshaptic.c">
+      <Filter>src\haptic\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\haptic\windows\SDL_xinputhaptic.c">
+      <Filter>src\haptic\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hidapi\SDL_hidapi.c">
+      <Filter>src\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hidapi\libusb\hid.c">
+      <Filter>src\hidapi\libusb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hidapi\linux\hid.c">
+      <Filter>src\hidapi\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hidapi\mac\hid.c">
+      <Filter>src\hidapi\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hidapi\windows\hid.c">
+      <Filter>src\hidapi\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\SDL_gamecontroller.c">
+      <Filter>src\joystick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\SDL_joystick.c">
+      <Filter>src\joystick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\SDL_steam_virtual_gamepad.c">
+      <Filter>src\joystick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\android\SDL_sysjoystick.c">
+      <Filter>src\joystick\android</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\bsd\SDL_bsdjoystick.c">
+      <Filter>src\joystick\bsd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\controller_type.c">
+      <Filter>src\joystick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\darwin\SDL_iokitjoystick.c">
+      <Filter>src\joystick\darwin</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\dummy\SDL_sysjoystick.c">
+      <Filter>src\joystick\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\emscripten\SDL_sysjoystick.c">
+      <Filter>src\joystick\emscripten</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\hidapi\SDL_hidapi_combined.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\hidapi\SDL_hidapi_gamecube.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\hidapi\SDL_hidapi_luna.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\hidapi\SDL_hidapi_ps3.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\hidapi\SDL_hidapi_ps4.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\hidapi\SDL_hidapi_ps5.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\hidapi\SDL_hidapi_rumble.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\hidapi\SDL_hidapi_shield.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\hidapi\SDL_hidapi_stadia.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\hidapi\SDL_hidapi_steam.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\hidapi\SDL_hidapi_steamdeck.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\hidapi\SDL_hidapi_switch.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\hidapi\SDL_hidapi_wii.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\hidapi\SDL_hidapi_xbox360.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\hidapi\SDL_hidapi_xbox360w.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\hidapi\SDL_hidapi_xboxone.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\hidapi\SDL_hidapijoystick.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\linux\SDL_sysjoystick.c">
+      <Filter>src\joystick\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\n3ds\SDL_sysjoystick.c">
+      <Filter>src\joystick\n3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\os2\SDL_os2joystick.c">
+      <Filter>src\joystick\os2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\ps2\SDL_sysjoystick.c">
+      <Filter>src\joystick\ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\psp\SDL_sysjoystick.c">
+      <Filter>src\joystick\psp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\steam\SDL_steamcontroller.c">
+      <Filter>src\joystick\steam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\virtual\SDL_virtualjoystick.c">
+      <Filter>src\joystick\virtual</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\vita\SDL_sysjoystick.c">
+      <Filter>src\joystick\vita</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\windows\SDL_dinputjoystick.c">
+      <Filter>src\joystick\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\windows\SDL_rawinputjoystick.c">
+      <Filter>src\joystick\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\windows\SDL_windows_gaming_input.c">
+      <Filter>src\joystick\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\windows\SDL_windowsjoystick.c">
+      <Filter>src\joystick\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joystick\windows\SDL_xinputjoystick.c">
+      <Filter>src\joystick\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libm\e_atan2.c">
+      <Filter>src\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libm\e_exp.c">
+      <Filter>src\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libm\e_fmod.c">
+      <Filter>src\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libm\e_log.c">
+      <Filter>src\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libm\e_log10.c">
+      <Filter>src\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libm\e_pow.c">
+      <Filter>src\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libm\e_rem_pio2.c">
+      <Filter>src\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libm\e_sqrt.c">
+      <Filter>src\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libm\k_cos.c">
+      <Filter>src\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libm\k_rem_pio2.c">
+      <Filter>src\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libm\k_sin.c">
+      <Filter>src\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libm\k_tan.c">
+      <Filter>src\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libm\s_atan.c">
+      <Filter>src\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libm\s_copysign.c">
+      <Filter>src\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libm\s_cos.c">
+      <Filter>src\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libm\s_fabs.c">
+      <Filter>src\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libm\s_floor.c">
+      <Filter>src\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libm\s_scalbn.c">
+      <Filter>src\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libm\s_sin.c">
+      <Filter>src\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libm\s_tan.c">
+      <Filter>src\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loadso\dlopen\SDL_sysloadso.c">
+      <Filter>src\loadso\dlopen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loadso\dummy\SDL_sysloadso.c">
+      <Filter>src\loadso\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loadso\os2\SDL_sysloadso.c">
+      <Filter>src\loadso\os2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loadso\windows\SDL_sysloadso.c">
+      <Filter>src\loadso\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\locale\SDL_locale.c">
+      <Filter>src\locale</Filter>
+    </ClCompile>
+    <ClCompile Include="src\locale\android\SDL_syslocale.c">
+      <Filter>src\locale\android</Filter>
+    </ClCompile>
+    <ClCompile Include="src\locale\dummy\SDL_syslocale.c">
+      <Filter>src\locale\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\locale\emscripten\SDL_syslocale.c">
+      <Filter>src\locale\emscripten</Filter>
+    </ClCompile>
+    <ClCompile Include="src\locale\n3ds\SDL_syslocale.c">
+      <Filter>src\locale\n3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\locale\unix\SDL_syslocale.c">
+      <Filter>src\locale\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\locale\vita\SDL_syslocale.c">
+      <Filter>src\locale\vita</Filter>
+    </ClCompile>
+    <ClCompile Include="src\locale\windows\SDL_syslocale.c">
+      <Filter>src\locale\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\locale\winrt\SDL_syslocale.c">
+      <Filter>src\locale\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\android\SDL_android_main.c">
+      <Filter>src\main\android</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\dummy\SDL_dummy_main.c">
+      <Filter>src\main\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\gdk\SDL_gdk_main.c">
+      <Filter>src\main\gdk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\n3ds\SDL_n3ds_main.c">
+      <Filter>src\main\n3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\nacl\SDL_nacl_main.c">
+      <Filter>src\main\nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\ps2\SDL_ps2_main.c">
+      <Filter>src\main\ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\psp\SDL_psp_main.c">
+      <Filter>src\main\psp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\uikit\SDL_uikit_main.c">
+      <Filter>src\main\uikit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\windows\SDL_windows_main.c">
+      <Filter>src\main\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\SDL_url.c">
+      <Filter>src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\android\SDL_sysurl.c">
+      <Filter>src\misc\android</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\dummy\SDL_sysurl.c">
+      <Filter>src\misc\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\emscripten\SDL_sysurl.c">
+      <Filter>src\misc\emscripten</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\riscos\SDL_sysurl.c">
+      <Filter>src\misc\riscos</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\unix\SDL_sysurl.c">
+      <Filter>src\misc\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\vita\SDL_sysurl.c">
+      <Filter>src\misc\vita</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\windows\SDL_sysurl.c">
+      <Filter>src\misc\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\power\SDL_power.c">
+      <Filter>src\power</Filter>
+    </ClCompile>
+    <ClCompile Include="src\power\android\SDL_syspower.c">
+      <Filter>src\power\android</Filter>
+    </ClCompile>
+    <ClCompile Include="src\power\emscripten\SDL_syspower.c">
+      <Filter>src\power\emscripten</Filter>
+    </ClCompile>
+    <ClCompile Include="src\power\haiku\SDL_syspower.c">
+      <Filter>src\power\haiku</Filter>
+    </ClCompile>
+    <ClCompile Include="src\power\linux\SDL_syspower.c">
+      <Filter>src\power\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\power\macosx\SDL_syspower.c">
+      <Filter>src\power\macosx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\power\n3ds\SDL_syspower.c">
+      <Filter>src\power\n3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\power\psp\SDL_syspower.c">
+      <Filter>src\power\psp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\power\vita\SDL_syspower.c">
+      <Filter>src\power\vita</Filter>
+    </ClCompile>
+    <ClCompile Include="src\power\windows\SDL_syspower.c">
+      <Filter>src\power\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\SDL_d3dmath.c">
+      <Filter>src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\SDL_render.c">
+      <Filter>src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\SDL_yuv_sw.c">
+      <Filter>src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\direct3d\SDL_render_d3d.c">
+      <Filter>src\render\direct3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\direct3d\SDL_shaders_d3d.c">
+      <Filter>src\render\direct3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\direct3d11\SDL_render_d3d11.c">
+      <Filter>src\render\direct3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\direct3d11\SDL_shaders_d3d11.c">
+      <Filter>src\render\direct3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\direct3d12\SDL_render_d3d12.c">
+      <Filter>src\render\direct3d12</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\direct3d12\SDL_shaders_d3d12.c">
+      <Filter>src\render\direct3d12</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\opengl\SDL_render_gl.c">
+      <Filter>src\render\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\opengl\SDL_shaders_gl.c">
+      <Filter>src\render\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\opengles\SDL_render_gles.c">
+      <Filter>src\render\opengles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\opengles2\SDL_render_gles2.c">
+      <Filter>src\render\opengles2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\opengles2\SDL_shaders_gles2.c">
+      <Filter>src\render\opengles2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\ps2\SDL_render_ps2.c">
+      <Filter>src\render\ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\psp\SDL_render_psp.c">
+      <Filter>src\render\psp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\software\SDL_blendfillrect.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\software\SDL_blendline.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\software\SDL_blendpoint.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\software\SDL_drawline.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\software\SDL_drawpoint.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\software\SDL_render_sw.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\software\SDL_rotate.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\software\SDL_triangle.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\vitagxm\SDL_render_vita_gxm.c">
+      <Filter>src\render\vitagxm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\vitagxm\SDL_render_vita_gxm_memory.c">
+      <Filter>src\render\vitagxm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\vitagxm\SDL_render_vita_gxm_tools.c">
+      <Filter>src\render\vitagxm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sensor\SDL_sensor.c">
+      <Filter>src\sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sensor\android\SDL_androidsensor.c">
+      <Filter>src\sensor\android</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sensor\dummy\SDL_dummysensor.c">
+      <Filter>src\sensor\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sensor\n3ds\SDL_n3dssensor.c">
+      <Filter>src\sensor\n3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sensor\vita\SDL_vitasensor.c">
+      <Filter>src\sensor\vita</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sensor\windows\SDL_windowssensor.c">
+      <Filter>src\sensor\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdlib\SDL_crc16.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdlib\SDL_crc32.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdlib\SDL_getenv.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdlib\SDL_iconv.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdlib\SDL_malloc.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdlib\SDL_mslibc.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdlib\SDL_qsort.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdlib\SDL_stdlib.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdlib\SDL_string.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdlib\SDL_strtokr.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\SDL_test_assert.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\SDL_test_common.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\SDL_test_compare.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\SDL_test_crc32.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\SDL_test_font.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\SDL_test_fuzzer.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\SDL_test_harness.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\SDL_test_imageBlit.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\SDL_test_imageBlitBlend.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\SDL_test_imageFace.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\SDL_test_imagePrimitives.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\SDL_test_imagePrimitivesBlend.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\SDL_test_log.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\SDL_test_md5.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\SDL_test_memory.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\SDL_test_random.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\SDL_thread.c">
+      <Filter>src\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\generic\SDL_syscond.c">
+      <Filter>src\thread\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\generic\SDL_sysmutex.c">
+      <Filter>src\thread\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\generic\SDL_syssem.c">
+      <Filter>src\thread\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\generic\SDL_systhread.c">
+      <Filter>src\thread\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\generic\SDL_systls.c">
+      <Filter>src\thread\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\n3ds\SDL_syscond.c">
+      <Filter>src\thread\n3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\n3ds\SDL_sysmutex.c">
+      <Filter>src\thread\n3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\n3ds\SDL_syssem.c">
+      <Filter>src\thread\n3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\n3ds\SDL_systhread.c">
+      <Filter>src\thread\n3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\os2\SDL_sysmutex.c">
+      <Filter>src\thread\os2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\os2\SDL_syssem.c">
+      <Filter>src\thread\os2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\os2\SDL_systhread.c">
+      <Filter>src\thread\os2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\os2\SDL_systls.c">
+      <Filter>src\thread\os2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\ps2\SDL_syssem.c">
+      <Filter>src\thread\ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\ps2\SDL_systhread.c">
+      <Filter>src\thread\ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\psp\SDL_sysmutex.c">
+      <Filter>src\thread\psp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\psp\SDL_syssem.c">
+      <Filter>src\thread\psp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\psp\SDL_systhread.c">
+      <Filter>src\thread\psp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\pthread\SDL_syscond.c">
+      <Filter>src\thread\pthread</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\pthread\SDL_sysmutex.c">
+      <Filter>src\thread\pthread</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\pthread\SDL_syssem.c">
+      <Filter>src\thread\pthread</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\pthread\SDL_systhread.c">
+      <Filter>src\thread\pthread</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\pthread\SDL_systls.c">
+      <Filter>src\thread\pthread</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\vita\SDL_sysmutex.c">
+      <Filter>src\thread\vita</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\vita\SDL_syssem.c">
+      <Filter>src\thread\vita</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\vita\SDL_systhread.c">
+      <Filter>src\thread\vita</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\windows\SDL_syscond_cv.c">
+      <Filter>src\thread\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\windows\SDL_sysmutex.c">
+      <Filter>src\thread\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\windows\SDL_syssem.c">
+      <Filter>src\thread\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\windows\SDL_systhread.c">
+      <Filter>src\thread\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread\windows\SDL_systls.c">
+      <Filter>src\thread\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer\SDL_timer.c">
+      <Filter>src\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer\dummy\SDL_systimer.c">
+      <Filter>src\timer\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer\haiku\SDL_systimer.c">
+      <Filter>src\timer\haiku</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer\n3ds\SDL_systimer.c">
+      <Filter>src\timer\n3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer\os2\SDL_systimer.c">
+      <Filter>src\timer\os2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer\ps2\SDL_systimer.c">
+      <Filter>src\timer\ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer\psp\SDL_systimer.c">
+      <Filter>src\timer\psp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer\unix\SDL_systimer.c">
+      <Filter>src\timer\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer\vita\SDL_systimer.c">
+      <Filter>src\timer\vita</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer\windows\SDL_systimer.c">
+      <Filter>src\timer\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_RLEaccel.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_blit.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_blit_0.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_blit_1.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_blit_A.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_blit_N.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_blit_auto.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_blit_copy.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_blit_slow.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_bmp.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_clipboard.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_egl.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_fillrect.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_pixels.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_rect.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_shape.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_stretch.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_surface.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_video.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_vulkan_utils.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\SDL_yuv.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\android\SDL_androidclipboard.c">
+      <Filter>src\video\android</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\android\SDL_androidevents.c">
+      <Filter>src\video\android</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\android\SDL_androidgl.c">
+      <Filter>src\video\android</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\android\SDL_androidkeyboard.c">
+      <Filter>src\video\android</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\android\SDL_androidmessagebox.c">
+      <Filter>src\video\android</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\android\SDL_androidmouse.c">
+      <Filter>src\video\android</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\android\SDL_androidtouch.c">
+      <Filter>src\video\android</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\android\SDL_androidvideo.c">
+      <Filter>src\video\android</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\android\SDL_androidvulkan.c">
+      <Filter>src\video\android</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\android\SDL_androidwindow.c">
+      <Filter>src\video\android</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\directfb\SDL_DirectFB_WM.c">
+      <Filter>src\video\directfb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\directfb\SDL_DirectFB_dyn.c">
+      <Filter>src\video\directfb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\directfb\SDL_DirectFB_events.c">
+      <Filter>src\video\directfb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\directfb\SDL_DirectFB_modes.c">
+      <Filter>src\video\directfb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\directfb\SDL_DirectFB_mouse.c">
+      <Filter>src\video\directfb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\directfb\SDL_DirectFB_opengl.c">
+      <Filter>src\video\directfb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\directfb\SDL_DirectFB_render.c">
+      <Filter>src\video\directfb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\directfb\SDL_DirectFB_shape.c">
+      <Filter>src\video\directfb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\directfb\SDL_DirectFB_video.c">
+      <Filter>src\video\directfb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\directfb\SDL_DirectFB_vulkan.c">
+      <Filter>src\video\directfb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\directfb\SDL_DirectFB_window.c">
+      <Filter>src\video\directfb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\dummy\SDL_nullevents.c">
+      <Filter>src\video\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\dummy\SDL_nullframebuffer.c">
+      <Filter>src\video\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\dummy\SDL_nullvideo.c">
+      <Filter>src\video\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\emscripten\SDL_emscriptenevents.c">
+      <Filter>src\video\emscripten</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\emscripten\SDL_emscriptenframebuffer.c">
+      <Filter>src\video\emscripten</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\emscripten\SDL_emscriptenmouse.c">
+      <Filter>src\video\emscripten</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\emscripten\SDL_emscriptenopengles.c">
+      <Filter>src\video\emscripten</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\emscripten\SDL_emscriptenvideo.c">
+      <Filter>src\video\emscripten</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\kmsdrm\SDL_kmsdrmdyn.c">
+      <Filter>src\video\kmsdrm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\kmsdrm\SDL_kmsdrmevents.c">
+      <Filter>src\video\kmsdrm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\kmsdrm\SDL_kmsdrmmouse.c">
+      <Filter>src\video\kmsdrm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\kmsdrm\SDL_kmsdrmopengles.c">
+      <Filter>src\video\kmsdrm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\kmsdrm\SDL_kmsdrmvideo.c">
+      <Filter>src\video\kmsdrm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\kmsdrm\SDL_kmsdrmvulkan.c">
+      <Filter>src\video\kmsdrm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\n3ds\SDL_n3dsevents.c">
+      <Filter>src\video\n3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\n3ds\SDL_n3dsframebuffer.c">
+      <Filter>src\video\n3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\n3ds\SDL_n3dsswkb.c">
+      <Filter>src\video\n3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\n3ds\SDL_n3dstouch.c">
+      <Filter>src\video\n3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\n3ds\SDL_n3dsvideo.c">
+      <Filter>src\video\n3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\nacl\SDL_naclevents.c">
+      <Filter>src\video\nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\nacl\SDL_naclglue.c">
+      <Filter>src\video\nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\nacl\SDL_naclopengles.c">
+      <Filter>src\video\nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\nacl\SDL_naclvideo.c">
+      <Filter>src\video\nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\nacl\SDL_naclwindow.c">
+      <Filter>src\video\nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\offscreen\SDL_offscreenevents.c">
+      <Filter>src\video\offscreen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\offscreen\SDL_offscreenframebuffer.c">
+      <Filter>src\video\offscreen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\offscreen\SDL_offscreenopengles.c">
+      <Filter>src\video\offscreen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\offscreen\SDL_offscreenvideo.c">
+      <Filter>src\video\offscreen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\offscreen\SDL_offscreenwindow.c">
+      <Filter>src\video\offscreen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\os2\SDL_os2dive.c">
+      <Filter>src\video\os2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\os2\SDL_os2messagebox.c">
+      <Filter>src\video\os2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\os2\SDL_os2mouse.c">
+      <Filter>src\video\os2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\os2\SDL_os2util.c">
+      <Filter>src\video\os2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\os2\SDL_os2video.c">
+      <Filter>src\video\os2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\os2\SDL_os2vman.c">
+      <Filter>src\video\os2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\pandora\SDL_pandora.c">
+      <Filter>src\video\pandora</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\pandora\SDL_pandora_events.c">
+      <Filter>src\video\pandora</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\ps2\SDL_ps2video.c">
+      <Filter>src\video\ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\psp\SDL_pspevents.c">
+      <Filter>src\video\psp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\psp\SDL_pspgl.c">
+      <Filter>src\video\psp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\psp\SDL_pspmouse.c">
+      <Filter>src\video\psp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\psp\SDL_pspvideo.c">
+      <Filter>src\video\psp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\qnx\gl.c">
+      <Filter>src\video\qnx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\qnx\keyboard.c">
+      <Filter>src\video\qnx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\qnx\video.c">
+      <Filter>src\video\qnx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\raspberry\SDL_rpievents.c">
+      <Filter>src\video\raspberry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\raspberry\SDL_rpimouse.c">
+      <Filter>src\video\raspberry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\raspberry\SDL_rpiopengles.c">
+      <Filter>src\video\raspberry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\raspberry\SDL_rpivideo.c">
+      <Filter>src\video\raspberry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\riscos\SDL_riscosevents.c">
+      <Filter>src\video\riscos</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\riscos\SDL_riscosframebuffer.c">
+      <Filter>src\video\riscos</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\riscos\SDL_riscosmessagebox.c">
+      <Filter>src\video\riscos</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\riscos\SDL_riscosmodes.c">
+      <Filter>src\video\riscos</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\riscos\SDL_riscosmouse.c">
+      <Filter>src\video\riscos</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\riscos\SDL_riscosvideo.c">
+      <Filter>src\video\riscos</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\riscos\SDL_riscoswindow.c">
+      <Filter>src\video\riscos</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\vita\SDL_vitaframebuffer.c">
+      <Filter>src\video\vita</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\vita\SDL_vitagl_pvr.c">
+      <Filter>src\video\vita</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\vita\SDL_vitagles.c">
+      <Filter>src\video\vita</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\vita\SDL_vitagles_pvr.c">
+      <Filter>src\video\vita</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\vita\SDL_vitakeyboard.c">
+      <Filter>src\video\vita</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\vita\SDL_vitamessagebox.c">
+      <Filter>src\video\vita</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\vita\SDL_vitamouse.c">
+      <Filter>src\video\vita</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\vita\SDL_vitatouch.c">
+      <Filter>src\video\vita</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\vita\SDL_vitavideo.c">
+      <Filter>src\video\vita</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\vivante\SDL_vivanteopengles.c">
+      <Filter>src\video\vivante</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\vivante\SDL_vivanteplatform.c">
+      <Filter>src\video\vivante</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\vivante\SDL_vivantevideo.c">
+      <Filter>src\video\vivante</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\vivante\SDL_vivantevulkan.c">
+      <Filter>src\video\vivante</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\wayland\SDL_waylandclipboard.c">
+      <Filter>src\video\wayland</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\wayland\SDL_waylanddatamanager.c">
+      <Filter>src\video\wayland</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\wayland\SDL_waylanddyn.c">
+      <Filter>src\video\wayland</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\wayland\SDL_waylandevents.c">
+      <Filter>src\video\wayland</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\wayland\SDL_waylandkeyboard.c">
+      <Filter>src\video\wayland</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\wayland\SDL_waylandmessagebox.c">
+      <Filter>src\video\wayland</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\wayland\SDL_waylandmouse.c">
+      <Filter>src\video\wayland</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\wayland\SDL_waylandopengles.c">
+      <Filter>src\video\wayland</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\wayland\SDL_waylandtouch.c">
+      <Filter>src\video\wayland</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\wayland\SDL_waylandvideo.c">
+      <Filter>src\video\wayland</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\wayland\SDL_waylandvulkan.c">
+      <Filter>src\video\wayland</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\wayland\SDL_waylandwindow.c">
+      <Filter>src\video\wayland</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\windows\SDL_windowsclipboard.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\windows\SDL_windowsevents.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\windows\SDL_windowsframebuffer.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\windows\SDL_windowskeyboard.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\windows\SDL_windowsmessagebox.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\windows\SDL_windowsmodes.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\windows\SDL_windowsmouse.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\windows\SDL_windowsopengl.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\windows\SDL_windowsopengles.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\windows\SDL_windowsshape.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\windows\SDL_windowsvideo.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\windows\SDL_windowsvulkan.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\windows\SDL_windowswindow.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\x11\SDL_x11clipboard.c">
+      <Filter>src\video\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\x11\SDL_x11dyn.c">
+      <Filter>src\video\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\x11\SDL_x11events.c">
+      <Filter>src\video\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\x11\SDL_x11framebuffer.c">
+      <Filter>src\video\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\x11\SDL_x11keyboard.c">
+      <Filter>src\video\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\x11\SDL_x11messagebox.c">
+      <Filter>src\video\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\x11\SDL_x11modes.c">
+      <Filter>src\video\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\x11\SDL_x11mouse.c">
+      <Filter>src\video\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\x11\SDL_x11opengl.c">
+      <Filter>src\video\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\x11\SDL_x11opengles.c">
+      <Filter>src\video\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\x11\SDL_x11shape.c">
+      <Filter>src\video\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\x11\SDL_x11touch.c">
+      <Filter>src\video\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\x11\SDL_x11video.c">
+      <Filter>src\video\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\x11\SDL_x11vulkan.c">
+      <Filter>src\video\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\x11\SDL_x11window.c">
+      <Filter>src\video\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\x11\SDL_x11xfixes.c">
+      <Filter>src\video\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\x11\SDL_x11xinput2.c">
+      <Filter>src\video\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\x11\edid-parse.c">
+      <Filter>src\video\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\yuv2rgb\yuv_rgb_lsx.c">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\yuv2rgb\yuv_rgb_sse.c">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\yuv2rgb\yuv_rgb_std.c">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

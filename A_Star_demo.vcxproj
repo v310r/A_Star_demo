@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A388B955-0F3E-324B-9832-2C2204E7284F}</ProjectGuid>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>A_Star_demo</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>build\bin\Debug-windows-x86_64\</OutDir>
+    <IntDir>build\intermediate\Debug-windows-x86_64\</IntDir>
+    <TargetName>A_Star_demo</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>build\bin\Release-windows-x86_64\</OutDir>
+    <IntDir>build\intermediate\Release-windows-x86_64\</IntDir>
+    <TargetName>A_Star_demo</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>__WIN32__;__WINDOWS__;_CONSOLE;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>src;pch;third_parties\SDL\include;third_parties\GLAD\include;third_parties\stb_image;third_parties\glm\glm;third_parties\imgui;third_parties\imgui\backends;third_parties\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ExternalWarningLevel>Level3</ExternalWarningLevel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;GLAD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>third_parties\SDL\build\bin\Debug-windows-x86_64;third_parties\SDL\SDLmain\build\bin\Debug-windows-x86_64;third_parties\GLAD\build\bin\Debug-windows-x86_64;third_parties\stb_image\build\bin\Debug-windows-x86_64;third_parties\imgui\build\bin\Debug-windows-x86_64;third_parties\spdlog\build\bin\Debug-windows-x86_64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>IF EXIST $(SolutionDir)third_parties\SDL\build\bin\Debug-windows-x86_64\SDL.dll\ (xcopy /Q /E /Y /I $(SolutionDir)third_parties\SDL\build\bin\Debug-windows-x86_64\SDL.dll $(ProjectDir)build\bin\Debug-windows-x86_64 &gt; nul) ELSE (xcopy /Q /Y /I $(SolutionDir)third_parties\SDL\build\bin\Debug-windows-x86_64\SDL.dll $(ProjectDir)build\bin\Debug-windows-x86_64 &gt; nul)
+IF EXIST $(SolutionDir)third_parties\SDL\build\bin\Debug-windows-x86_64\SDLmain.dll\ (xcopy /Q /E /Y /I $(SolutionDir)third_parties\SDL\build\bin\Debug-windows-x86_64\SDLmain.dll $(ProjectDir)build\bin\Debug-windows-x86_64 &gt; nul) ELSE (xcopy /Q /Y /I $(SolutionDir)third_parties\SDL\build\bin\Debug-windows-x86_64\SDLmain.dll $(ProjectDir)build\bin\Debug-windows-x86_64 &gt; nul)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>__WIN32__;__WINDOWS__;_CONSOLE;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>src;pch;third_parties\SDL\include;third_parties\GLAD\include;third_parties\stb_image;third_parties\glm\glm;third_parties\imgui;third_parties\imgui\backends;third_parties\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ExternalWarningLevel>Level3</ExternalWarningLevel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;GLAD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>third_parties\SDL\build\bin\Release-windows-x86_64;third_parties\SDL\SDLmain\build\bin\Release-windows-x86_64;third_parties\GLAD\build\bin\Release-windows-x86_64;third_parties\stb_image\build\bin\Release-windows-x86_64;third_parties\imgui\build\bin\Release-windows-x86_64;third_parties\spdlog\build\bin\Release-windows-x86_64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>IF EXIST $(SolutionDir)third_parties\SDL\build\bin\Release-windows-x86_64\SDL.dll\ (xcopy /Q /E /Y /I $(SolutionDir)third_parties\SDL\build\bin\Release-windows-x86_64\SDL.dll $(ProjectDir)build\bin\Release-windows-x86_64 &gt; nul) ELSE (xcopy /Q /Y /I $(SolutionDir)third_parties\SDL\build\bin\Release-windows-x86_64\SDL.dll $(ProjectDir)build\bin\Release-windows-x86_64 &gt; nul)
+IF EXIST $(SolutionDir)third_parties\SDL\build\bin\Release-windows-x86_64\SDLmain.dll\ (xcopy /Q /E /Y /I $(SolutionDir)third_parties\SDL\build\bin\Release-windows-x86_64\SDLmain.dll $(ProjectDir)build\bin\Release-windows-x86_64 &gt; nul) ELSE (xcopy /Q /Y /I $(SolutionDir)third_parties\SDL\build\bin\Release-windows-x86_64\SDLmain.dll $(ProjectDir)build\bin\Release-windows-x86_64 &gt; nul)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="pch\pch.h" />
+    <ClInclude Include="src\Camera\Camera.h" />
+    <ClInclude Include="src\Collision\Collision.h" />
+    <ClInclude Include="src\Core\Core.h" />
+    <ClInclude Include="src\GUI\ImGuiWrapper.h" />
+    <ClInclude Include="src\IndexBuffer\IndexBuffer.h" />
+    <ClInclude Include="src\Input\Input.h" />
+    <ClInclude Include="src\Shader\Shader.h" />
+    <ClInclude Include="src\Star\Map.h" />
+    <ClInclude Include="src\Star\Player.h" />
+    <ClInclude Include="src\Star\TileCostResolver.h" />
+    <ClInclude Include="src\Star\Tiles\BaseTile.h" />
+    <ClInclude Include="src\Star\Tiles\BlockingTile.h" />
+    <ClInclude Include="src\Star\Tiles\DangerousTile.h" />
+    <ClInclude Include="src\Star\Tiles\WalkableTile.h" />
+    <ClInclude Include="src\Timer\Timer.h" />
+    <ClInclude Include="src\Utilities\ColorUtility.h" />
+    <ClInclude Include="src\Utilities\Defines.h" />
+    <ClInclude Include="src\Utilities\FileUtility.h" />
+    <ClInclude Include="src\Utilities\Logs.h" />
+    <ClInclude Include="src\VertexArray\VertexArray.h" />
+    <ClInclude Include="src\VertexBuffer\BufferLayout.h" />
+    <ClInclude Include="src\VertexBuffer\VertexBuffer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch\pch.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\Camera\Camera.cpp" />
+    <ClCompile Include="src\Collision\Collision.cpp" />
+    <ClCompile Include="src\Core\Core.cpp" />
+    <ClCompile Include="src\GUI\ImGuiWrapper.cpp" />
+    <ClCompile Include="src\IndexBuffer\IndexBuffer.cpp" />
+    <ClCompile Include="src\Input\Input.cpp" />
+    <ClCompile Include="src\Shader\Shader.cpp" />
+    <ClCompile Include="src\Star\Map.cpp" />
+    <ClCompile Include="src\Star\Player.cpp" />
+    <ClCompile Include="src\Star\TileCostResolver.cpp" />
+    <ClCompile Include="src\Star\Tiles\BaseTile.cpp" />
+    <ClCompile Include="src\Star\Tiles\BlockingTile.cpp" />
+    <ClCompile Include="src\Star\Tiles\DangerousTile.cpp" />
+    <ClCompile Include="src\Star\Tiles\WalkableTile.cpp" />
+    <ClCompile Include="src\Timer\Timer.cpp" />
+    <ClCompile Include="src\Utilities\ColorUtility.cpp" />
+    <ClCompile Include="src\Utilities\FileUtility.cpp" />
+    <ClCompile Include="src\Utilities\Logs.cpp" />
+    <ClCompile Include="src\VertexArray\VertexArray.cpp" />
+    <ClCompile Include="src\VertexBuffer\BufferLayout.cpp" />
+    <ClCompile Include="src\VertexBuffer\VertexBuffer.cpp" />
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\tile.frag" />
+    <None Include="shaders\tile.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="third_parties\SDL\SDL.vcxproj">
+      <Project>{081D880B-7426-887C-FDA1-9E7C69AA937C}</Project>
+    </ProjectReference>
+    <ProjectReference Include="third_parties\SDL\SDLmain\SDLmain.vcxproj">
+      <Project>{EDD01C9D-59B0-9B38-62C8-260FCE26029A}</Project>
+    </ProjectReference>
+    <ProjectReference Include="third_parties\stb_image\stb_image.vcxproj">
+      <Project>{3096E6B0-9C00-9B27-E53E-4CCD51E8787C}</Project>
+    </ProjectReference>
+    <ProjectReference Include="third_parties\GLAD\GLAD.vcxproj">
+      <Project>{5D4A857C-4981-860D-F26D-6C10DE83020F}</Project>
+    </ProjectReference>
+    <ProjectReference Include="third_parties\imgui\imgui.vcxproj">
+      <Project>{0098A80F-6CAC-D0C0-352E-7420A101CDF1}</Project>
+    </ProjectReference>
+    <ProjectReference Include="third_parties\spdlog\spdlog.vcxproj">
+      <Project>{8EAD431C-7A4F-6EF2-630A-82464F4BF542}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
