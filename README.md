@@ -2,6 +2,8 @@ This is just a simple implementation of A star algorithm (Dijkstra is included a
 
 Tech: SDL, OpenGL, spdlog, glm, ImGui, Premake
 
+Description: Yellow and white tile are walkable, but yellow ones are extremely costly, so whine ones will be preffered first hand. Heuristic function uses distance from tile to end tile (0 for Dijkstra). Red tiles are unwalkable.
+
 ![A_Star_demo_64aZJcTvwl](https://github.com/user-attachments/assets/253fe43e-2efb-4632-8ed4-24efdd8ac0d4)
 
 
