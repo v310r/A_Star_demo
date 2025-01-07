@@ -19,7 +19,7 @@ constexpr int SCREEN_HEIGHT = 800;
 #undef main
 int main(int argc, char* argv[])
 {
-	srand(time((unsigned int)0));
+	srand((unsigned int)time(0));
 
 	if (SDL_Init(SDL_INIT_VIDEO) < 0)
 	{
@@ -122,17 +122,12 @@ int main(int argc, char* argv[])
 		mainTickTimer.ResetTimer();
 
 		//LOG_INFO("deltaTime ms: {0}", Timer::ConvertSecondsToMS(mainTickDeltaTime));
-		LOG_INFO("FPS: {0}", 1000.0f / Timer::ConvertSecondsToMS(mainTickDeltaTime));
+		//LOG_INFO("FPS: {0}", uint32_t(1000.0f / Timer::ConvertSecondsToMS(mainTickDeltaTime)));
 
 		SDL_Event event;
 		while (SDL_PollEvent(&event))
 		{
 			ImGui_ImplSDL2_ProcessEvent(&event);
-
-			if (event.type == SDL_QUIT)
-			{
-				bWantsToQuit = true;
-			}
 
 			if (event.type == SDL_WINDOWEVENT && event.window.event == SDL_WINDOWEVENT_CLOSE)
 			{
@@ -141,11 +136,10 @@ int main(int argc, char* argv[])
 					bWantsToQuit = true;
 				}
 			}
-
 		}
 
 		// no layer support, sry :-(. Mouse click events do propagate through ImGUI
-		// There were no intention to fix it in current project
+		// There were no intention to fix it in the current project
 		// this project is about path finding, not layer system creation
 		//
 		// Just try to keep ImGui windows outside game viewport

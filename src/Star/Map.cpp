@@ -50,7 +50,7 @@ Map::Map(float inWidth, float inHeight, float inTileWidth, float inTileHeight, u
 		m_TileVAO->SetIndexBuffer(tileIBO);
 	}
 
-RecreateMap();
+	RecreateMap();
 }
 
 Map::~Map()
@@ -77,44 +77,47 @@ void Map::RecreateMap()
 	const float tileScaledWidth = m_TileWidth / 2.0f;
 	const float tileScaledHeight = m_TileHeight / 2.0f;
 
+	std::random_device rd;
+	std::mt19937 gen(rd());
+
 	glm::vec3 tilePosition = glm::vec3(m_TilePositionOffsetX + tileScaledWidth + m_LineDelimeterThicknessInPixels, m_TilePositionOffsetY + tileScaledHeight + m_LineDelimeterThicknessInPixels, 0.0f);
 	for (uint32_t i = 0; i < m_NumberOfTilesPerColumnInteger; ++i)
 	{
 		for (uint32_t j = 0; j < m_NumberOfTilesPerRowInteger; ++j)
 		{
-			std::random_device rd;
-			std::mt19937 gen(rd());
 			std::uniform_int_distribution randRange(0, 100);
 
 			BaseTile* tile = nullptr;
-			//if (randRange(gen) <= 20.0f)
-			//{
-			//	tile = new BlockingTile(m_TileWidth, m_TileHeight);
-			//}
-			//else if (randRange(gen) >= 60.0f)
-			//{
-			//	tile = new DangerousTile(m_TileWidth, m_TileHeight);
-			//	++m_NumberOfWalkableTiles;
-			//}
-			//else
-			//{
-			//	tile = new WalkableTile(m_TileWidth, m_TileHeight);
-			//	++m_NumberOfWalkableTiles;
-			//}
-
-			if (i % 10 == 0 && j != m_NumberOfTilesPerRowInteger - 1)
+			if (m_bUseRandomMapCreation)
 			{
-				tile = new DangerousTile(m_TileWidth, m_TileHeight);
-				++m_NumberOfWalkableTiles;
+				if (randRange(gen) <= 20.0f)
+				{
+					tile = new BlockingTile(m_TileWidth, m_TileHeight);
+				}
+				else if (randRange(gen) >= 60.0f)
+				{
+					tile = new DangerousTile(m_TileWidth, m_TileHeight);
+					++m_NumberOfWalkableTiles;
+				}
+				else
+				{
+					tile = new WalkableTile(m_TileWidth, m_TileHeight);
+					++m_NumberOfWalkableTiles;
+				}
 			}
 			else
 			{
-				tile = new WalkableTile(m_TileWidth, m_TileHeight);
-				++m_NumberOfWalkableTiles;
+				if (i % 10 == 0 && j != m_NumberOfTilesPerRowInteger - 1)
+				{
+					tile = new DangerousTile(m_TileWidth, m_TileHeight);
+					++m_NumberOfWalkableTiles;
+				}
+				else
+				{
+					tile = new WalkableTile(m_TileWidth, m_TileHeight);
+					++m_NumberOfWalkableTiles;
+				}
 			}
-
-			//tile = new WalkableTile(m_TileWidth, m_TileHeight);
-			//++m_NumberOfWalkableTiles;
 
 			tile->SetPosition(tilePosition);
 			tile->SetScale(glm::vec3(tileScaledWidth, tileScaledHeight, 1.0f));
@@ -157,6 +160,8 @@ void Map::ImGuiFrameUpdate()
 		ImGui::InputFloat("Tile Height", &m_TileHeight);
 
 		ImGui::InputScalar("Tile Line Delimeter Thickness In Pixels", ImGuiDataType_U32, &m_LineDelimeterThicknessInPixels);
+
+		ImGui::Checkbox("Use random map creation", &m_bUseRandomMapCreation);
 	}
 }
 

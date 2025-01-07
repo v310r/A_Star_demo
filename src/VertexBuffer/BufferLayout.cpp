@@ -79,7 +79,7 @@ uint32_t BufferLayout::GetStride() const
 
 uint32_t BufferLayout::GetAttributesNum() const
 {
-	return m_Attributes.size();
+	return (uint32_t)m_Attributes.size();
 }
 
 uint32_t BufferLayout::GetNumberOfElementsInAttribute(uint32_t attributeIndex) const

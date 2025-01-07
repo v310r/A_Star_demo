@@ -64,4 +64,6 @@ protected:
 	// basically position of the tile map (it's translation)
 	float m_TilePositionOffsetX = 0.0f;
 	float m_TilePositionOffsetY = 0.0f;
+
+	bool m_bUseRandomMapCreation = false;
 };

@@ -84,7 +84,6 @@ workspace "A_Star_demo"
         {
             ("{COPY} %{wks.location}third_parties/SDL/" .. build_bin_dir .. "/" .. outputdir .. "/SDL.dll %{prj.location}" .. build_bin_dir .. "/" .. outputdir),
             ("{COPY} %{wks.location}third_parties/SDL/" .. build_bin_dir .. "/" .. outputdir .. "/SDLmain.dll %{prj.location}" .. build_bin_dir .. "/" .. outputdir)
-            --("{COPY} %{wks.location}third_parties/GLAD/" .. build_bin_dir .. "/" .. outputdir .. "/GLAD.dll %{prj.location}" .. build_bin_dir .. "/" .. outputdir)
         }
 
         filter "system:windows"

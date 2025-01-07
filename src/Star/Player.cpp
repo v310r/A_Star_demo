@@ -165,18 +165,18 @@ void Player::FindPathToEndTileBlocking()
 	}
 }
 
-bool Player::FindPathToEndTileTick()
+void Player::FindPathToEndTileTick()
 {
 	if (m_bPathFound || m_TilePriorityQueue.empty())
 	{
-		return false;
+		return;
 	}
 
 	const glm::ivec2 HeuristicallyClosestTileLocation = m_TilePriorityQueue.back().TileLocation;
 	if (HeuristicallyClosestTileLocation == m_EndTilePosition)
 	{
 		m_bPathFound = true;
-		true;
+		return;
 	}
 
 	VisitTilesFrom(HeuristicallyClosestTileLocation);

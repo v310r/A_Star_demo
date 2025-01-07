@@ -69,9 +69,9 @@ public:
 protected:
 	struct ivec2Hash
 	{
-		int operator()(const glm::ivec2& v) const noexcept
+		size_t operator()(const glm::ivec2& v) const noexcept
 		{
-			return std::hash<int>()(v.x) ^ (std::hash<int>()(v.y) << 1); // Combine x and y hashes
+			return std::hash<size_t>()(v.x) ^ (std::hash<size_t>()(v.y) << 1); // Combine x and y hashes
 		}
 	};
 
@@ -87,7 +87,7 @@ protected:
 
 	void FindPathToEndTileBlocking();
 
-	bool FindPathToEndTileTick();
+	void FindPathToEndTileTick();
 
 	int32_t CalculatePathCost(BaseTile* from, BaseTile* to) const;
 	int32_t CalculatePathCost(const glm::ivec2& from, const glm::ivec2& to) const;
